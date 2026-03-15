@@ -10,11 +10,9 @@ so only truly new ones are ever emailed.
 import anthropic
 import json
 import os
-import smtplib
+import resend
 import time
 from datetime import datetime
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Optional
 
@@ -27,11 +25,10 @@ load_dotenv()
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY")
-TAVILY_API_KEY     = os.getenv("TAVILY_API_KEY")
-GMAIL_ADDRESS      = os.getenv("GMAIL_ADDRESS")
-GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-RECIPIENT_EMAILS   = [e.strip() for e in os.getenv("RECIPIENT_EMAILS", "").split(",") if e.strip()]
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+TAVILY_API_KEY    = os.getenv("TAVILY_API_KEY")
+RESEND_API_KEY    = os.getenv("RESEND_API_KEY")
+RECIPIENT_EMAILS  = [e.strip() for e in os.getenv("RECIPIENT_EMAILS", "").split(",") if e.strip()]
 
 SEEN_LISTINGS_FILE = Path("seen_listings.json")
 
@@ -427,17 +424,14 @@ def send_email(results: SearchResults) -> None:
     n = len(results.listings)
     subject = f"🏠 {n} New Jersey City Apartment{'s' if n != 1 else ''} Found!"
 
-    msg = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"]    = GMAIL_ADDRESS
-    msg["To"]      = ", ".join(RECIPIENT_EMAILS)
-
-    msg.attach(MIMEText(format_email_plain(results), "plain"))
-    msg.attach(MIMEText(format_email_html(results),  "html"))
-
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-        server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
-        server.sendmail(GMAIL_ADDRESS, RECIPIENT_EMAILS, msg.as_string())
+    resend.api_key = RESEND_API_KEY
+    resend.Emails.send({
+        "from":    "Apartment Finder <onboarding@resend.dev>",
+        "to":      RECIPIENT_EMAILS,
+        "subject": subject,
+        "html":    format_email_html(results),
+        "text":    format_email_plain(results),
+    })
 
     print(f"  ✓ Email sent to: {', '.join(RECIPIENT_EMAILS)}")
 
@@ -451,11 +445,10 @@ def main() -> None:
 
     # Validate config
     missing = [k for k, v in {
-        "ANTHROPIC_API_KEY":  ANTHROPIC_API_KEY,
-        "TAVILY_API_KEY":     TAVILY_API_KEY,
-        "GMAIL_ADDRESS":      GMAIL_ADDRESS,
-        "GMAIL_APP_PASSWORD": GMAIL_APP_PASSWORD,
-        "RECIPIENT_EMAILS":   RECIPIENT_EMAILS,
+        "ANTHROPIC_API_KEY": ANTHROPIC_API_KEY,
+        "TAVILY_API_KEY":    TAVILY_API_KEY,
+        "RESEND_API_KEY":    RESEND_API_KEY,
+        "RECIPIENT_EMAILS":  RECIPIENT_EMAILS,
     }.items() if not v]
     if missing:
         raise EnvironmentError(f"Missing required env vars: {', '.join(missing)}")
