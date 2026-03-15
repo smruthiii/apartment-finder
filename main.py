@@ -246,12 +246,22 @@ After scoring, choose the top 1–3 listings and add their listing_ids to top_pi
     if len(search_text) > MAX_CHARS:
         search_text = search_text[:MAX_CHARS] + "\n\n[Report truncated to fit context window]"
 
+    # Use tool use for structured output — avoids grammar compilation timeouts
+    # that occur with client.messages.parse() on complex schemas.
+    tool = {
+        "name": "save_listings",
+        "description": "Save the extracted and ranked apartment listings.",
+        "input_schema": SearchResults.model_json_schema(),
+    }
+
     for attempt in range(3):
         try:
-            response = client.messages.parse(
+            response = client.messages.create(
                 model="claude-opus-4-6",
                 max_tokens=8192,
                 system=system,
+                tools=[tool],
+                tool_choice={"type": "tool", "name": "save_listings"},
                 messages=[{
                     "role": "user",
                     "content": (
@@ -261,9 +271,12 @@ After scoring, choose the top 1–3 listings and add their listing_ids to top_pi
                         f"Search report:\n\n{search_text}"
                     ),
                 }],
-                output_format=SearchResults,
             )
-            return response.parsed_output
+            # Pull the tool input out of the response and validate with Pydantic
+            for block in response.content:
+                if block.type == "tool_use" and block.name == "save_listings":
+                    return SearchResults(**block.input)
+            return None
         except anthropic.InternalServerError as e:
             if attempt < 2:
                 print(f"  ⚠ Anthropic 500 error (attempt {attempt + 1}/3), retrying in 15s...")
