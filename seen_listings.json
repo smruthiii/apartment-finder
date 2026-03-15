@@ -46,5 +46,71 @@
     "price": 5000,
     "url": "https://www.apartments.com/25-hudson-st-jersey-city-nj/7qh944x/",
     "first_seen": "2026-03-15T08:30:44.414245"
+  },
+  "lively-8a-321warren-v2": {
+    "address": "143 Morgan St #8A, Jersey City, NJ 07302",
+    "price": 4624,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-15T13:53:02.213039"
+  },
+  "lively-7b-143morgan": {
+    "address": "143 Morgan St #7B, Jersey City, NJ 07302",
+    "price": 3967,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-15T13:53:02.213049"
+  },
+  "clermont-609-1greene": {
+    "address": "1 Greene St Unit 609, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/1-greene-st-jersey-city-nj-unit-609/bb2kf78/",
+    "first_seen": "2026-03-15T13:53:02.213050"
+  },
+  "onegrove-215grove": {
+    "address": "215 Grove St, Jersey City, NJ 07302",
+    "price": 5421,
+    "url": "https://www.apartments.com/transit/nj/jersey-city/exchange-place/kktfgy8/",
+    "first_seen": "2026-03-15T13:53:02.213052"
+  },
+  "20-2ndst-503": {
+    "address": "20 2nd St Unit 503, Jersey City, NJ 07302",
+    "price": 4900,
+    "url": "https://www.apartments.com/transit/nj/jersey-city/exchange-place/mxbjpeh/3/",
+    "first_seen": "2026-03-15T13:53:02.213053"
+  },
+  "hendrix-180morgan": {
+    "address": "180 Morgan St, Jersey City, NJ 07302",
+    "price": 4985,
+    "url": "https://www.apartments.com/hudson-exchange-jersey-city-nj/luxury/",
+    "first_seen": "2026-03-15T13:53:02.213054"
+  },
+  "quinn-197vanvorst": {
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "price": 4500,
+    "url": "https://www.apartmentfinder.com/New-Jersey/Jersey-City-Apartments/Quinn-Apartments-dkrj8bh",
+    "first_seen": "2026-03-15T13:53:02.213056"
+  },
+  "77hudson-3109": {
+    "address": "77 Hudson St Unit 3109, Jersey City, NJ 07302",
+    "price": 6200,
+    "url": "https://www.apartments.com/the-waterfront-jersey-city-nj/luxury/",
+    "first_seen": "2026-03-15T13:53:02.213059"
+  },
+  "126dudley-102": {
+    "address": "126 Dudley St Unit 102, Jersey City, NJ 07302",
+    "price": 4500,
+    "url": "https://www.apartments.com/126-dudley-st-jersey-city-nj-unit-102/2v6mmpc/",
+    "first_seen": "2026-03-15T13:53:02.213061"
+  },
+  "149essex-2r": {
+    "address": "149 Essex St Unit 2R, Jersey City, NJ 07302",
+    "price": 4500,
+    "url": "https://www.apartments.com/149-essex-st-jersey-city-nj-unit-2r/93e32r6/",
+    "first_seen": "2026-03-15T13:53:02.213062"
+  },
+  "65baystreet-2br": {
+    "address": "65 Bay St, Jersey City, NJ 07302",
+    "price": 4800,
+    "url": "https://www.trulia.com/building/65-bay-street-apartments-65-bay-st-jersey-city-nj-07302-1008615641",
+    "first_seen": "2026-03-15T13:53:02.213064"
   }
 }
