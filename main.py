@@ -85,19 +85,24 @@ LOCATION & BUILDING:
 
 # Searches to run every cycle. Kept to ~10 to stay well within Tavily's free tier
 # (1,000 credits/month; basic search = 1 credit; 10 searches × 60 runs = 600 credits).
+# Rental sites to restrict results to — keeps results relevant and cuts noise
+APARTMENT_DOMAINS = [
+    "zillow.com", "streeteasy.com", "apartments.com", "renthop.com",
+    "trulia.com", "hotpads.com", "realtor.com", "rent.com",
+]
+
 SEARCH_QUERIES = [
     # General rental-site searches
-    "2 bedroom luxury apartment Jersey City NJ doorman in-unit laundry June 2026",
-    "2 bedroom apartment Jersey City NJ Grove Street Exchange Place PATH rent 2026",
-    "Newport Paulus Hook Jersey City 2BR luxury apartment available 2026",
-    "Downtown Jersey City luxury high-rise 2 bedroom rental 2026 streeteasy zillow",
-    "Jersey City NJ 2 bedroom apartment renthop hotpads trulia 2026 doorman laundry",
-    # Target-building searches
-    "The Lively Jersey City 2 bedroom apartment available rent 2026",
-    "Haus25 Jersey City 2 bedroom rental available 2026",
-    "VYV BLVD 401 425 475 Quinn Lenox Jersey City 2BR apartment",
-    "90 Columbus 351 Marin The Hendrix Jersey City rental 2026",
-    "151 Bay Street Jersey City luxury 2 bedroom available 2026",
+    "2 bedroom luxury apartment Jersey City NJ doorman in-unit laundry available 2026",
+    "2 bedroom apartment Jersey City NJ Grove Street Exchange Place PATH rent",
+    "Newport Paulus Hook Jersey City 2BR luxury apartment for rent doorman",
+    "Downtown Jersey City luxury 2 bedroom apartment high floor available June 2026",
+    # Target-building searches (these go direct to building sites, no domain filter)
+    "The Lively Jersey City 2 bedroom apartment available rent",
+    "Haus25 Jersey City 2 bedroom rental available",
+    "VYV BLVD 401 425 475 Quinn Lenox Jersey City 2BR apartment for rent",
+    "90 Columbus 351 Marin The Hendrix Jersey City 2 bedroom rental",
+    "151 Bay Street Jersey City luxury 2 bedroom available",
 ]
 
 
@@ -166,18 +171,27 @@ def search_for_apartments(seen_ids: list[str]) -> str:
         "",
     ]
 
-    for query in SEARCH_QUERIES:
+    for i, query in enumerate(SEARCH_QUERIES):
         report_parts.append(f"\n{'='*60}")
         report_parts.append(f"QUERY: {query}")
         report_parts.append("="*60)
 
+        # First 4 queries target general rental sites — restrict to known domains.
+        # Building-specific queries (index 4+) search the open web so building
+        # sites and their listing pages are included.
+        use_domains = APARTMENT_DOMAINS if i < 4 else None
+
         try:
-            resp = tavily.search(
+            kwargs = dict(
                 query=query,
                 search_depth="basic",
                 max_results=6,
-                include_raw_content=True,
+                include_raw_content=False,   # snippets are sufficient; raw content is too bulky
             )
+            if use_domains:
+                kwargs["include_domains"] = use_domains
+
+            resp = tavily.search(**kwargs)
             results = resp.get("results", [])
             if not results:
                 report_parts.append("No results returned.")
@@ -188,10 +202,6 @@ def search_for_apartments(seen_ids: list[str]) -> str:
                 report_parts.append(f"Title:   {r.get('title', 'N/A')}")
                 report_parts.append(f"URL:     {r.get('url', 'N/A')}")
                 report_parts.append(f"Snippet: {r.get('content', '')}")
-                raw = r.get("raw_content") or ""
-                if raw:
-                    # Cap per-page content to keep the total report manageable
-                    report_parts.append(f"Page content:\n{raw[:1200]}")
 
         except Exception as e:
             report_parts.append(f"Search failed: {e}")
