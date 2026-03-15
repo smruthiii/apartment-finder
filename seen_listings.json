@@ -1,1 +1,50 @@
-{}
+{
+  "lively-8a-321warren": {
+    "address": "321 Warren St #8A (The Lively), Jersey City, NJ 07302",
+    "price": 4624,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-15T08:30:44.414225"
+  },
+  "lively-7b-321warren": {
+    "address": "321 Warren St #7B (The Lively), Jersey City, NJ 07302",
+    "price": 3967,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-15T08:30:44.414235"
+  },
+  "lively-1a-321warren": {
+    "address": "321 Warren St #1A (The Lively), Jersey City, NJ 07302",
+    "price": 3939,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-15T08:30:44.414236"
+  },
+  "clermont-306-1greene": {
+    "address": "1 Greene St #306 (Clermont Cove), Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/1-greene-st-jersey-city-nj-unit-306/dzkfxbl/",
+    "first_seen": "2026-03-15T08:30:44.414237"
+  },
+  "351marin-2br": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
+    "first_seen": "2026-03-15T08:30:44.414239"
+  },
+  "90columbus-2br": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 4500,
+    "url": "https://www.apartments.com/columbus-collection-jersey-city-nj/q44p10z/",
+    "first_seen": "2026-03-15T08:30:44.414240"
+  },
+  "haus25-2br": {
+    "address": "25 Christopher Columbus Dr (Haus25), Jersey City, NJ 07302",
+    "price": 5000,
+    "url": "https://www.apartments.com/haus25-jersey-city-nj/rfbe430/",
+    "first_seen": "2026-03-15T08:30:44.414241"
+  },
+  "25hudson-706": {
+    "address": "25 Hudson St #706 (Liberty Terrace), Jersey City, NJ 07302",
+    "price": 5000,
+    "url": "https://www.apartments.com/25-hudson-st-jersey-city-nj/7qh944x/",
+    "first_seen": "2026-03-15T08:30:44.414245"
+  }
+}
