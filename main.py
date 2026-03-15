@@ -3,8 +3,8 @@
 Apartment Finder Agent
 ======================
 Searches for new 2BR luxury apartments in Jersey City, NJ and emails a digest
-to you and your husband. Runs 2x daily via cron; tracks seen listings so only
-truly new ones are ever emailed.
+to you and your husband. Runs 2x daily via GitHub Actions; tracks seen listings
+so only truly new ones are ever emailed.
 """
 
 import anthropic
@@ -19,16 +19,18 @@ from typing import Optional
 
 from dotenv import load_dotenv
 from pydantic import BaseModel
+from tavily import TavilyClient
 
 load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-GMAIL_ADDRESS     = os.getenv("GMAIL_ADDRESS")
+ANTHROPIC_API_KEY  = os.getenv("ANTHROPIC_API_KEY")
+TAVILY_API_KEY     = os.getenv("TAVILY_API_KEY")
+GMAIL_ADDRESS      = os.getenv("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
-RECIPIENT_EMAILS  = [e.strip() for e in os.getenv("RECIPIENT_EMAILS", "").split(",") if e.strip()]
+RECIPIENT_EMAILS   = [e.strip() for e in os.getenv("RECIPIENT_EMAILS", "").split(",") if e.strip()]
 
 SEEN_LISTINGS_FILE = Path("seen_listings.json")
 
@@ -80,6 +82,23 @@ LOCATION & BUILDING:
 14. Availability: June 1 ideal, early July acceptable
 """
 
+# Searches to run every cycle. Kept to ~10 to stay well within Tavily's free tier
+# (1,000 credits/month; basic search = 1 credit; 10 searches × 60 runs = 600 credits).
+SEARCH_QUERIES = [
+    # General rental-site searches
+    "2 bedroom luxury apartment Jersey City NJ doorman in-unit laundry June 2026",
+    "2 bedroom apartment Jersey City NJ Grove Street Exchange Place PATH rent 2026",
+    "Newport Paulus Hook Jersey City 2BR luxury apartment available 2026",
+    "Downtown Jersey City luxury high-rise 2 bedroom rental 2026 streeteasy zillow",
+    "Jersey City NJ 2 bedroom apartment renthop hotpads trulia 2026 doorman laundry",
+    # Target-building searches
+    "The Lively Jersey City 2 bedroom apartment available rent 2026",
+    "Haus25 Jersey City 2 bedroom rental available 2026",
+    "VYV BLVD 401 425 475 Quinn Lenox Jersey City 2BR apartment",
+    "90 Columbus 351 Marin The Hendrix Jersey City rental 2026",
+    "151 Bay Street Jersey City luxury 2 bedroom available 2026",
+]
+
 
 # ---------------------------------------------------------------------------
 # Pydantic models for structured extraction
@@ -126,131 +145,61 @@ def save_seen_listings(seen: dict) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Stage 1 — Web search agent
+# Stage 1 — Tavily web search
 # ---------------------------------------------------------------------------
-def search_for_apartments(client: anthropic.Anthropic, seen_ids: list[str]) -> str:
+def search_for_apartments(seen_ids: list[str]) -> str:
     """
-    Run Claude with web_search + web_fetch server-side tools to gather raw
-    listing data from multiple rental sites. Returns the agent's text output.
+    Run targeted Tavily searches across rental sites and specific buildings.
+    Returns a compiled plain-text report for Stage 2 (Claude extraction).
     """
-    system = f"""You are an expert apartment hunter searching for 2-bedroom luxury apartments in Jersey City, NJ.
+    tavily = TavilyClient(api_key=TAVILY_API_KEY)
 
-{SEARCH_CRITERIA}
-
-Your job is to THOROUGHLY search multiple rental websites and compile ALL active listings
-that match the criteria. Be comprehensive — search at least 5 different sites and use
-multiple queries per site.
-
-Sites to search (search ALL of them):
-- apartments.com
-- zillow.com
-- streeteasy.com
-- renthop.com
-- trulia.com
-- hotpads.com
-
-For each listing found, extract:
-- Full address and building name (if any)
-- Monthly rent
-- Bedrooms and bathrooms
-- Square footage (if shown)
-- Floor number or floor range (e.g. "12th floor", "high floor", "PH")
-- Layout description (e.g. "split 2BR", "corner unit", "loft", "standard open plan")
-- Natural light / window orientation (e.g. "south-facing", "floor-to-ceiling windows", "corner unit")
-- Kitchen and bathroom finish details (appliances, countertops, fixtures, tile)
-- All amenities listed
-- Available date
-- Estimated walk time to nearest PATH station
-- Full listing URL
-
-PRIORITY: Also search directly for availability at these specific luxury Jersey City buildings
-(check each building's own website and any listings on rental sites):
-- The Lively
-- The Lenox
-- The Quinn
-- VYV
-- BLVD 401
-- BLVD 425
-- BLVD 475
-- Haus25
-- 90 Columbus
-- 351 Marin
-- The Hendrix
-- 151 Bay Street
-And any similar luxury high-rise buildings in the same JC neighborhoods.
-NOTE: If a listing says "inquire" or "call for pricing" with no rent shown, skip it — it's
-likely not available. Only include listings where an actual price is listed.
-
-Be exhaustive. Use search queries like:
-- "2 bedroom luxury apartment Jersey City Grove Street doorman"
-- "2 bed Jersey City Exchange Place PATH doorman laundry"
-- "Newport Jersey City 2BR luxury apartment 2026"
-- "Paulus Hook 2 bedroom luxury doorman"
-- "Downtown Jersey City 2 bedroom in-unit laundry doorman"
-- "The Lively Jersey City 2 bedroom"
-- "Haus25 Jersey City apartments available"
-- "VYV Jersey City 2BR"
-- "BLVD Jersey City 2 bedroom available"
-- "90 Columbus Jersey City rental"
-- etc.
-
-IMPORTANT: Skip any listings whose URL contains one of these already-seen IDs:
-{json.dumps(seen_ids[:100])}
-
-At the end, write a detailed plain-text report of EVERY matching listing you found,
-with all extracted details. Include the full URL for each one.
-"""
-
-    messages: list[dict] = [{
-        "role": "user",
-        "content": (
-            "Please search for new 2-bedroom luxury apartments in Jersey City, NJ "
-            "available June or early July 2026. Search apartments.com, Zillow, "
-            "StreetEasy, RentHop, Trulia, and HotPads thoroughly.\n\n"
-            f"Max budget: $6,000/month\n"
-            f"Must have: in-unit laundry AND doorman\n"
-            f"Must be within 10 min walk of Grove St, Exchange Place, or Newport PATH\n\n"
-            f"Already-seen listing IDs to skip:\n{json.dumps(seen_ids[:100])}\n\n"
-            "Search extensively and compile a detailed report of all matching active listings."
-        ),
-    }]
-
-    tools = [
-        {"type": "web_search_20260209", "name": "web_search"},
-        {"type": "web_fetch_20260209",  "name": "web_fetch"},
+    report_parts = [
+        "RAW APARTMENT SEARCH RESULTS",
+        f"Search run: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        "",
+        "SEARCH CRITERIA:",
+        SEARCH_CRITERIA.strip(),
+        "",
+        f"Already-seen listing IDs to SKIP:\n{json.dumps(seen_ids[:150])}",
+        "",
     ]
 
-    max_continuations = 8
-    continuations = 0
+    for query in SEARCH_QUERIES:
+        report_parts.append(f"\n{'='*60}")
+        report_parts.append(f"QUERY: {query}")
+        report_parts.append("="*60)
 
-    while continuations < max_continuations:
-        response = client.messages.create(
-            model="claude-opus-4-6",
-            max_tokens=8192,
-            system=system,
-            tools=tools,
-            messages=messages,
-        )
+        try:
+            resp = tavily.search(
+                query=query,
+                search_depth="basic",
+                max_results=6,
+                include_raw_content=True,
+            )
+            results = resp.get("results", [])
+            if not results:
+                report_parts.append("No results returned.")
+                continue
 
-        messages.append({"role": "assistant", "content": response.content})
+            for r in results:
+                report_parts.append("\n--- Result ---")
+                report_parts.append(f"Title:   {r.get('title', 'N/A')}")
+                report_parts.append(f"URL:     {r.get('url', 'N/A')}")
+                report_parts.append(f"Snippet: {r.get('content', '')}")
+                raw = r.get("raw_content") or ""
+                if raw:
+                    # Cap per-page content to keep the total report manageable
+                    report_parts.append(f"Page content:\n{raw[:2500]}")
 
-        if response.stop_reason == "end_turn":
-            break
-        elif response.stop_reason == "pause_turn":
-            # Server-side tools hit their iteration limit — just re-send to continue
-            continuations += 1
-            continue
-        else:
-            break
+        except Exception as e:
+            report_parts.append(f"Search failed: {e}")
 
-    # Extract all text from the final assistant message
-    return "\n".join(
-        block.text for block in response.content if hasattr(block, "text")
-    )
+    return "\n".join(report_parts)
 
 
 # ---------------------------------------------------------------------------
-# Stage 2 — Structured extraction + ranking
+# Stage 2 — Structured extraction + ranking (Claude)
 # ---------------------------------------------------------------------------
 def extract_and_rank_listings(
     client: anthropic.Anthropic,
@@ -261,14 +210,15 @@ def extract_and_rank_listings(
     Parse the raw search report into structured ApartmentListing objects,
     score each one, and identify the top picks.
     """
-    system = f"""You are extracting and ranking apartment listings from a search report.
+    system = f"""You are extracting and ranking apartment listings from a web search report.
 
 {SEARCH_CRITERIA}
 
 {RANKING_CRITERIA}
 
 Extract each distinct listing into the structured format. Exclude any listing whose
-URL appears in the already-seen list.
+URL appears in the already-seen list. Only include listings where an actual price is
+shown — skip any that say "inquire", "call for pricing", or have no rent listed.
 
 Scoring guide (1–10):
  9–10 — Perfect: meets ALL criteria, great PATH proximity, luxury building
@@ -289,7 +239,7 @@ After scoring, choose the top 1–3 listings and add their listing_ids to top_pi
             "content": (
                 "Extract all apartment listings from the search report below into "
                 "structured format. Score each 1–10 and identify the top picks.\n\n"
-                f"Already-seen listing IDs to EXCLUDE:\n{json.dumps(seen_ids[:100])}\n\n"
+                f"Already-seen listing IDs to EXCLUDE:\n{json.dumps(seen_ids[:150])}\n\n"
                 f"Search report:\n\n{search_text}"
             ),
         }],
@@ -346,7 +296,7 @@ def _listing_html(listing: ApartmentListing, is_top_pick: bool) -> str:
 
 def format_email_html(results: SearchResults) -> str:
     top_ids    = set(results.top_pick_ids)
-    top_picks  = sorted([l for l in results.listings if l.listing_id in top_ids],   key=lambda x: x.score, reverse=True)
+    top_picks  = sorted([l for l in results.listings if l.listing_id in top_ids],    key=lambda x: x.score, reverse=True)
     others     = sorted([l for l in results.listings if l.listing_id not in top_ids], key=lambda x: x.score, reverse=True)
 
     now = datetime.now().strftime("%A, %B %d at %-I:%M %p")
@@ -422,7 +372,7 @@ def format_email_plain(results: SearchResults) -> str:
     ]
     top_ids = set(results.top_pick_ids)
     for l in sorted(results.listings, key=lambda x: x.score, reverse=True):
-        star = "⭐ TOP PICK — " if l.listing_id in top_ids else ""
+        star   = "⭐ TOP PICK — " if l.listing_id in top_ids else ""
         extras = " | ".join(filter(None, [l.floor, l.layout_type, l.sunlight]))
         lines += [
             f"{star}{l.address}",
@@ -466,6 +416,7 @@ def main() -> None:
     # Validate config
     missing = [k for k, v in {
         "ANTHROPIC_API_KEY":  ANTHROPIC_API_KEY,
+        "TAVILY_API_KEY":     TAVILY_API_KEY,
         "GMAIL_ADDRESS":      GMAIL_ADDRESS,
         "GMAIL_APP_PASSWORD": GMAIL_APP_PASSWORD,
         "RECIPIENT_EMAILS":   RECIPIENT_EMAILS,
@@ -480,11 +431,11 @@ def main() -> None:
     seen_ids = list(seen.keys())
     print(f"  Already tracked: {len(seen_ids)} listing(s)")
 
-    # Stage 1 — Search
-    print("  Searching the web for new listings...")
-    search_text = search_for_apartments(client, seen_ids)
+    # Stage 1 — Tavily search
+    print("  Searching the web for new listings via Tavily...")
+    search_text = search_for_apartments(seen_ids)
 
-    # Stage 2 — Extract + rank
+    # Stage 2 — Claude: extract + rank
     print("  Extracting and ranking listings...")
     results = extract_and_rank_listings(client, search_text, seen_ids)
 
