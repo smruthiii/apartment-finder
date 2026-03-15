@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/opt/homebrew/bin/python3.11 -c \"import anthropic, dotenv, pydantic; print\\(''deps OK''\\)\")",
+      "Bash(chmod +x /Users/smruthi/workspace/agents/apartment-finder/run.sh)",
+      "Bash(crontab -l)"
+    ]
+  }
+}

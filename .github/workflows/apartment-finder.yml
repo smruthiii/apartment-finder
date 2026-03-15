@@ -1,0 +1,39 @@
+name: Apartment Finder
+
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 9:00 AM ET (EDT = UTC-4)
+    - cron: '0 1 * * *'    # 9:00 PM ET (EDT = UTC-4)
+  workflow_dispatch:         # also lets you trigger manually from GitHub UI
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run apartment finder
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS:     ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAILS:  ${{ secrets.RECIPIENT_EMAILS }}
+        run: python main.py
+
+      - name: Save seen listings back to repo
+        run: |
+          git config user.name  "Apartment Finder Bot"
+          git config user.email "actions@github.com"
+          git add seen_listings.json
+          git diff --staged --quiet || git commit -m "chore: update seen listings [skip ci]"
+          git push

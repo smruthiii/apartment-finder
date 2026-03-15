@@ -1,0 +1,4 @@
+.env
+apartment_finder.log
+__pycache__/
+*.pyc
