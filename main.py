@@ -11,6 +11,7 @@ import anthropic
 import json
 import os
 import smtplib
+import time
 from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -190,7 +191,7 @@ def search_for_apartments(seen_ids: list[str]) -> str:
                 raw = r.get("raw_content") or ""
                 if raw:
                     # Cap per-page content to keep the total report manageable
-                    report_parts.append(f"Page content:\n{raw[:2500]}")
+                    report_parts.append(f"Page content:\n{raw[:1200]}")
 
         except Exception as e:
             report_parts.append(f"Search failed: {e}")
@@ -230,23 +231,35 @@ Scoring guide (1–10):
 After scoring, choose the top 1–3 listings and add their listing_ids to top_pick_ids.
 """
 
-    response = client.messages.parse(
-        model="claude-opus-4-6",
-        max_tokens=8192,
-        system=system,
-        messages=[{
-            "role": "user",
-            "content": (
-                "Extract all apartment listings from the search report below into "
-                "structured format. Score each 1–10 and identify the top picks.\n\n"
-                f"Already-seen listing IDs to EXCLUDE:\n{json.dumps(seen_ids[:150])}\n\n"
-                f"Search report:\n\n{search_text}"
-            ),
-        }],
-        output_format=SearchResults,
-    )
+    # Truncate search text to avoid overwhelming the API (~80k chars ≈ 20k tokens)
+    MAX_CHARS = 80_000
+    if len(search_text) > MAX_CHARS:
+        search_text = search_text[:MAX_CHARS] + "\n\n[Report truncated to fit context window]"
 
-    return response.parsed_output
+    for attempt in range(3):
+        try:
+            response = client.messages.parse(
+                model="claude-opus-4-6",
+                max_tokens=8192,
+                system=system,
+                messages=[{
+                    "role": "user",
+                    "content": (
+                        "Extract all apartment listings from the search report below into "
+                        "structured format. Score each 1–10 and identify the top picks.\n\n"
+                        f"Already-seen listing IDs to EXCLUDE:\n{json.dumps(seen_ids[:150])}\n\n"
+                        f"Search report:\n\n{search_text}"
+                    ),
+                }],
+                output_format=SearchResults,
+            )
+            return response.parsed_output
+        except anthropic.InternalServerError as e:
+            if attempt < 2:
+                print(f"  ⚠ Anthropic 500 error (attempt {attempt + 1}/3), retrying in 15s...")
+                time.sleep(15)
+            else:
+                raise e
 
 
 # ---------------------------------------------------------------------------
