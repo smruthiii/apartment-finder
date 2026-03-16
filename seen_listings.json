@@ -172,5 +172,17 @@
     "price": 5000,
     "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/",
     "first_seen": "2026-03-16T03:58:57.949707"
+  },
+  "95montgomery-301": {
+    "address": "95 Montgomery St, APT 301, Jersey City, NJ 07302",
+    "price": 3500,
+    "url": "https://www.zillow.com/homedetails/95-Montgomery-St-APT-301-Jersey-City-NJ-07302/2095789151_zpid/",
+    "first_seen": "2026-03-16T14:23:41.060155"
+  },
+  "baygrovearms-225bay": {
+    "address": "225 Bay St, Jersey City, NJ 07302",
+    "price": 4400,
+    "url": "https://www.apartments.com/bay-grove-arms-jersey-city-nj/yxkpfhv/",
+    "first_seen": "2026-03-16T14:23:41.060166"
   }
 }
