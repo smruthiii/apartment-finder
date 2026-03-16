@@ -112,5 +112,65 @@
     "price": 4800,
     "url": "https://www.trulia.com/building/65-bay-street-apartments-65-bay-st-jersey-city-nj-07302-1008615641",
     "first_seen": "2026-03-15T13:53:02.213064"
+  },
+  "lively-8a-143morgan": {
+    "address": "143 Morgan St #8A, Jersey City, NJ 07302",
+    "price": 4624,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-16T03:58:57.949684"
+  },
+  "lively-1a-143morgan": {
+    "address": "143 Morgan St #1A, Jersey City, NJ 07302",
+    "price": 3939,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-16T03:58:57.949693"
+  },
+  "lively-7d-143morgan": {
+    "address": "143 Morgan St #7D, Jersey City, NJ 07302",
+    "price": 3176,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-16T03:58:57.949694"
+  },
+  "160-1st-st-614": {
+    "address": "160 1st St Unit 614, Jersey City, NJ 07302",
+    "price": 4150,
+    "url": "https://www.apartments.com/powerhouse-arts-district-jersey-city-nj/washer-dryer/",
+    "first_seen": "2026-03-16T03:58:57.949696"
+  },
+  "15warren-116": {
+    "address": "15 Warren St Unit 116, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/15-warren-st-jersey-city-nj-unit-116/n4yf33n/",
+    "first_seen": "2026-03-16T03:58:57.949697"
+  },
+  "604.5grove-2": {
+    "address": "604.5 Grove St Unit 2, Jersey City, NJ 07310",
+    "price": 3500,
+    "url": "https://www.apartments.com/6045-grove-st-jersey-city-nj-unit-2/z8khb1y/",
+    "first_seen": "2026-03-16T03:58:57.949699"
+  },
+  "libertytowers-2br": {
+    "address": "33 Hudson St, Jersey City, NJ 07302",
+    "price": 6030,
+    "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/",
+    "first_seen": "2026-03-16T03:58:57.949700"
+  },
+  "grovepointe-2br": {
+    "address": "100 Christopher Columbus Dr #1501, Jersey City, NJ 07302",
+    "price": 3925,
+    "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/",
+    "first_seen": "2026-03-16T03:58:57.949704"
+  },
+  "lenox-2br": {
+    "address": "Lenox, Paulus Hook, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.lenoxnj.com/faq/",
+    "first_seen": "2026-03-16T03:58:57.949706"
+  },
+  "50regent-515": {
+    "address": "50 Regent St #515, Jersey City, NJ 07302",
+    "price": 5000,
+    "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/",
+    "first_seen": "2026-03-16T03:58:57.949707"
   }
 }
