@@ -226,5 +226,53 @@
     "price": 8165,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/haus25/",
     "first_seen": "2026-03-17T03:39:44.183318"
+  },
+  "lively-1a-143morgan-v2": {
+    "address": "143 Morgan St #1A, Jersey City, NJ 07302",
+    "price": 3939,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-17T14:21:22.486773"
+  },
+  "276-1st-st-3": {
+    "address": "276 1st St Unit 3, Jersey City, NJ 07302",
+    "price": 3500,
+    "url": "https://www.apartments.com/276-1st-st-jersey-city-nj-unit-3/78jynfy/",
+    "first_seen": "2026-03-17T14:21:22.486782"
+  },
+  "331varick-2": {
+    "address": "331 Varick St Unit 2, Jersey City, NJ 07302",
+    "price": 3200,
+    "url": "https://www.apartments.com/331-varick-st-jersey-city-nj-unit-2/xytxypq/",
+    "first_seen": "2026-03-17T14:21:22.486784"
+  },
+  "252grove-3": {
+    "address": "252 Grove St Unit 3, Jersey City, NJ 07302",
+    "price": 2850,
+    "url": "https://www.apartments.com/252-grove-street-unit-3-jersey-city-nj/bvzf8k9/",
+    "first_seen": "2026-03-17T14:21:22.486785"
+  },
+  "24bright-2": {
+    "address": "24 Bright St Unit 2, Jersey City, NJ 07302",
+    "price": 2800,
+    "url": "https://www.apartments.com/24-bright-st-jersey-city-nj-unit-2/73s74xx/",
+    "first_seen": "2026-03-17T14:21:22.486787"
+  },
+  "126dudley-203": {
+    "address": "126 Dudley St Unit 203, Jersey City, NJ 07302",
+    "price": 3500,
+    "url": "https://www.apartments.com/126-dudley-st-jersey-city-nj-unit-203/4h9bh3j/",
+    "first_seen": "2026-03-17T14:21:22.486789"
+  },
+  "90columbus-2br-v2": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5400,
+    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/90-columbus/default.aspx",
+    "first_seen": "2026-03-17T14:21:22.486790"
+  },
+  "151baystreet-2br": {
+    "address": "151 Bay St, Jersey City, NJ 07302",
+    "price": 4599,
+    "url": "https://www.apartments.com/151-bay-street-jersey-city-nj/sb794k7/",
+    "first_seen": "2026-03-17T14:21:22.486794"
   }
 }
