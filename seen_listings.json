@@ -184,5 +184,47 @@
     "price": 4400,
     "url": "https://www.apartments.com/bay-grove-arms-jersey-city-nj/yxkpfhv/",
     "first_seen": "2026-03-16T14:23:41.060166"
+  },
+  "lively-8a-143morgan-v2": {
+    "address": "143 Morgan St #8A, Jersey City, NJ 07302",
+    "price": 4624,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-17T03:39:44.183303"
+  },
+  "vyv-south-2a": {
+    "address": "VYV South, Jersey City, NJ 07302",
+    "price": 5216,
+    "url": "https://www.apartmentlist.com/nj/jersey-city/vyv--2",
+    "first_seen": "2026-03-17T03:39:44.183312"
+  },
+  "vyv-south-2c": {
+    "address": "VYV South, Jersey City, NJ 07302",
+    "price": 5531,
+    "url": "https://www.apartmentlist.com/nj/jersey-city/vyv--2",
+    "first_seen": "2026-03-17T03:39:44.183313"
+  },
+  "vyv-south-2f-balcony": {
+    "address": "VYV South, Jersey City, NJ 07302",
+    "price": 6316,
+    "url": "https://www.apartmentlist.com/nj/jersey-city/vyv--2",
+    "first_seen": "2026-03-17T03:39:44.183315"
+  },
+  "174washington-3n": {
+    "address": "174 Washington St, Unit 3N, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/174-washington-st-jersey-city-nj-unit-3n/enrbxyq/",
+    "first_seen": "2026-03-17T03:39:44.183316"
+  },
+  "77hudson-4906": {
+    "address": "77 Hudson St #4906, Jersey City, NJ 07302",
+    "price": 7200,
+    "url": "https://streeteasy.com/building/77-hudson/4906",
+    "first_seen": "2026-03-17T03:39:44.183317"
+  },
+  "haus25-2br-v2": {
+    "address": "25 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 8165,
+    "url": "https://verisresidential.com/jersey-city-nj-apartments/haus25/",
+    "first_seen": "2026-03-17T03:39:44.183318"
   }
 }
