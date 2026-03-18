@@ -274,5 +274,35 @@
     "price": 4599,
     "url": "https://www.apartments.com/151-bay-street-jersey-city-nj/sb794k7/",
     "first_seen": "2026-03-17T14:21:22.486794"
+  },
+  "clermont-115x-1greene": {
+    "address": "1 Greene St, Unit 115x, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/1-greene-st-jersey-city-nj-unit-115x/xfsfwbp/",
+    "first_seen": "2026-03-18T14:24:46.928790"
+  },
+  "lively-7b-143morgan-v2": {
+    "address": "143 Morgan St, Unit 7B, Jersey City, NJ 07302",
+    "price": 3967,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-18T14:24:46.928797"
+  },
+  "lively-8a-143morgan-v3": {
+    "address": "143 Morgan St, Unit 8A, Jersey City, NJ 07302",
+    "price": 4624,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-18T14:24:46.928798"
+  },
+  "lively-1a-143morgan-v3": {
+    "address": "143 Morgan St, Unit 1A, Jersey City, NJ 07302",
+    "price": 3939,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-18T14:24:46.928800"
+  },
+  "351marin-2br-v2": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 5880,
+    "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
+    "first_seen": "2026-03-18T14:24:46.928801"
   }
 }
