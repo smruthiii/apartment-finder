@@ -304,5 +304,41 @@
     "price": 5880,
     "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
     "first_seen": "2026-03-18T14:24:46.928801"
+  },
+  "haus25-b6-2br": {
+    "address": "25 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 6855,
+    "url": "https://www.homes.com/property/haus25-jersey-city-nj/k2n4vkjy8xw52/",
+    "first_seen": "2026-03-19T14:11:13.222250"
+  },
+  "hendrix-2br-6200": {
+    "address": "180 Morgan St (The Hendrix), Jersey City, NJ 07302",
+    "price": 6200,
+    "url": "https://www.redfin.com/NJ/Jersey-City/351-Marin-Blvd-07302/apartment/171597187",
+    "first_seen": "2026-03-19T14:11:13.222259"
+  },
+  "lively-8e-143morgan": {
+    "address": "143 Morgan St #8E, Jersey City, NJ 07302",
+    "price": 3678,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-19T14:11:13.222260"
+  },
+  "sable-jc-2br": {
+    "address": "Sable, Jersey City, NJ 07302",
+    "price": 4490,
+    "url": "https://hotpads.com/sable-jersey-city-nj-07302-249f1kd/pad",
+    "first_seen": "2026-03-19T14:11:13.222262"
+  },
+  "90columbus-2br-v3": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5400,
+    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/90-columbus/default.aspx",
+    "first_seen": "2026-03-19T14:11:13.222263"
+  },
+  "hamiltonhouse-255brunswick": {
+    "address": "255 Brunswick St #603, Jersey City, NJ 07302",
+    "price": 4081,
+    "url": "https://www.trulia.com/building/haus25-25-christopher-columbus-dr-jersey-city-nj-07302-2006378771",
+    "first_seen": "2026-03-19T14:11:13.222264"
   }
 }
