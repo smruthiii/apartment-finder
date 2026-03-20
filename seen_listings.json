@@ -340,5 +340,35 @@
     "price": 4081,
     "url": "https://www.trulia.com/building/haus25-25-christopher-columbus-dr-jersey-city-nj-07302-2006378771",
     "first_seen": "2026-03-19T14:11:13.222264"
+  },
+  "295j-295johnston": {
+    "address": "295 Johnston Ave, Jersey City, NJ 07304",
+    "price": 0,
+    "url": "https://www.apartments.com/295j-jersey-city-nj/dspz8fj/",
+    "first_seen": "2026-03-20T03:34:33.869126"
+  },
+  "20newport-2112": {
+    "address": "20 Newport Pkwy Unit 2112, Jersey City, NJ 07310",
+    "price": 5500,
+    "url": "https://www.apartments.com/newport-jersey-city-nj/luxury/",
+    "first_seen": "2026-03-20T03:34:33.869136"
+  },
+  "126dudley-212": {
+    "address": "126 Dudley St Unit 212, Jersey City, NJ 07302",
+    "price": 0,
+    "url": "https://www.apartments.com/126-dudley-st-jersey-city-nj-unit-212/hnvqh20/",
+    "first_seen": "2026-03-20T03:34:33.869137"
+  },
+  "90columbus-5007": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5400,
+    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/90-columbus/default.aspx",
+    "first_seen": "2026-03-20T03:34:33.869139"
+  },
+  "351marin-2br-v3": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
+    "first_seen": "2026-03-20T03:34:33.869140"
   }
 }
