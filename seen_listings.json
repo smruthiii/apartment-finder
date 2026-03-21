@@ -370,5 +370,53 @@
     "price": 5500,
     "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
     "first_seen": "2026-03-20T03:34:33.869140"
+  },
+  "lively-3b-143morgan": {
+    "address": "143 Morgan St #3B, Jersey City, NJ 07302",
+    "price": 3939,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-21T03:26:04.388433"
+  },
+  "lively-4b-143morgan": {
+    "address": "143 Morgan St #4B, Jersey City, NJ 07302",
+    "price": 3927,
+    "url": "https://www.rent.com/apartment/the-lively-jersey-city-nj-lc5895778",
+    "first_seen": "2026-03-21T03:26:04.388441"
+  },
+  "126dudley-316": {
+    "address": "126 Dudley St #316, Jersey City, NJ 07302",
+    "price": 3800,
+    "url": "https://www.apartments.com/126-dudley-st-jersey-city-nj-unit-316/3v72k3d/",
+    "first_seen": "2026-03-21T03:26:04.388443"
+  },
+  "haus25-b9-2br": {
+    "address": "25 Christopher Columbus Dr (Haus25), Jersey City, NJ 07302",
+    "price": 7870,
+    "url": "https://www.homes.com/property/haus25-jersey-city-nj/k2n4vkjy8xw52/",
+    "first_seen": "2026-03-21T03:26:04.388444"
+  },
+  "90columbus-2br-v4": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5400,
+    "url": "https://www.rentcafe.com/apartments/nj/jersey-city/90-columbus/default.aspx",
+    "first_seen": "2026-03-21T03:26:04.388446"
+  },
+  "351marin-2br-v4": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 4500,
+    "url": "https://www.apartments.com/351-marin-jersey-city-nj/kqdssrb/",
+    "first_seen": "2026-03-21T03:26:04.388447"
+  },
+  "blvd-collection-2br": {
+    "address": "401/425/475 BLVD Collection, Jersey City, NJ 07310",
+    "price": 3185,
+    "url": "https://www.apartmentlist.com/nj/jersey-city/the-blvd-collection",
+    "first_seen": "2026-03-21T03:26:04.388448"
+  },
+  "399-1st-st-2": {
+    "address": "399 1st St #2, Jersey City, NJ 07302",
+    "price": 2800,
+    "url": "https://www.zillow.com/homedetails/399-1st-St-2-Jersey-City-NJ-07302/2077335269_zpid/",
+    "first_seen": "2026-03-21T03:26:04.388452"
   }
 }
