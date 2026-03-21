@@ -418,5 +418,11 @@
     "price": 2800,
     "url": "https://www.zillow.com/homedetails/399-1st-St-2-Jersey-City-NJ-07302/2077335269_zpid/",
     "first_seen": "2026-03-21T03:26:04.388452"
+  },
+  "689marin-508-zephyr": {
+    "address": "689 Marin Blvd, Unit 508, Jersey City, NJ 07310",
+    "price": 0,
+    "url": "https://www.apartments.com/689-marin-blvd-jersey-city-nj-unit-508/x1v0fem/",
+    "first_seen": "2026-03-21T13:47:29.515693"
   }
 }
