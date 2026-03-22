@@ -424,5 +424,17 @@
     "price": 0,
     "url": "https://www.apartments.com/689-marin-blvd-jersey-city-nj-unit-508/x1v0fem/",
     "first_seen": "2026-03-21T13:47:29.515693"
+  },
+  "351marin-0902": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-22T03:43:01.610407"
+  },
+  "351marin-1502": {
+    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-22T03:43:01.610417"
   }
 }
