@@ -83,26 +83,36 @@ LOCATION & BUILDING:
 14. Availability: June 1 ideal, early July acceptable
 """
 
-# Searches to run every cycle. Kept to ~10 to stay well within Tavily's free tier
-# (1,000 credits/month; basic search = 1 credit; 10 searches × 60 runs = 600 credits).
-# Rental sites to restrict results to — keeps results relevant and cuts noise
+# Rental aggregator domains — used for general + condo searches
 APARTMENT_DOMAINS = [
     "zillow.com", "streeteasy.com", "apartments.com", "renthop.com",
     "trulia.com", "hotpads.com", "realtor.com", "rent.com",
 ]
 
-SEARCH_QUERIES = [
-    # General rental-site searches
+# General aggregator searches (broad net + condo buildings that have no dedicated site)
+# Budget: 4 credits/run × 60 runs = 240 credits/month
+GENERAL_QUERIES = [
     "2 bedroom luxury apartment Jersey City NJ doorman in-unit laundry available 2026",
-    "2 bedroom apartment Jersey City NJ Grove Street Exchange Place PATH rent",
-    "Newport Paulus Hook Jersey City 2BR luxury apartment for rent doorman",
-    "Downtown Jersey City luxury 2 bedroom apartment high floor available June 2026",
-    # Target-building searches (these go direct to building sites, no domain filter)
-    "The Lively Jersey City 2 bedroom apartment available rent",
-    "Haus25 Jersey City 2 bedroom rental available",
-    "VYV BLVD 401 425 475 Quinn Lenox Jersey City 2BR apartment for rent",
-    "90 Columbus 351 Marin The Hendrix Jersey City 2 bedroom rental",
-    "151 Bay Street Jersey City luxury 2 bedroom available",
+    "Jersey City NJ 2BR luxury apartment high floor PATH station available June 2026",
+    "151 Bay Street Jersey City 2 bedroom for rent",
+    "99 Hudson Jersey City 2 bedroom for rent",
+]
+
+# Direct property website searches — one search per building within its own domain.
+# Budget: 10 credits/run × 60 runs = 600 credits/month
+# Total: ~840 credits/month — within Tavily's 1,000/month free tier.
+PROPERTY_SITE_SEARCHES = [
+    # (building_name, domain, query)
+    ("The Lively",  "thelivelyapartments.com",      "2 bedroom available rent floor plans"),
+    ("Haus25",      "verisresidential.com",          "Haus25 Jersey City 2 bedroom available rent"),
+    ("BLVD",        "verisresidential.com",          "BLVD Jersey City 2 bedroom available rent"),
+    ("VYV",         "rent.brookfieldproperties.com", "VYV Jersey City 2 bedroom available rent"),
+    ("Quinn",       "quinnjc.com",                   "2 bedroom available rent floor plans"),
+    ("Lenox",       "lenoxnj.com",                   "2 bedroom available rent floor plans"),
+    ("90 Columbus", "ironstate.com",                 "90 Columbus Jersey City 2 bedroom available"),
+    ("351 Marin",   "351marinjc.com",                "2 bedroom available rent floor plans"),
+    ("The Hendrix", "thehendrixjc.com",              "2 bedroom available rent floor plans"),
+    ("65 Bay",      "65bay.com",                     "2 bedroom available rent floor plans"),
 ]
 
 
@@ -153,9 +163,39 @@ def save_seen_listings(seen: dict) -> None:
 # ---------------------------------------------------------------------------
 # Stage 1 — Tavily web search
 # ---------------------------------------------------------------------------
+def _run_tavily_search(tavily, query: str, include_domains: list[str] | None, max_results: int = 5) -> list[dict]:
+    """Run a single Tavily search and return results list."""
+    kwargs = dict(
+        query=query,
+        search_depth="basic",
+        max_results=max_results,
+        include_raw_content=False,
+    )
+    if include_domains:
+        kwargs["include_domains"] = include_domains
+    resp = tavily.search(**kwargs)
+    return resp.get("results", [])
+
+
+def _append_results(report_parts: list, label: str, results: list[dict]) -> None:
+    report_parts.append(f"\n{'='*60}")
+    report_parts.append(f"SOURCE: {label}")
+    report_parts.append("="*60)
+    if not results:
+        report_parts.append("No results returned.")
+        return
+    for r in results:
+        report_parts.append("\n--- Result ---")
+        report_parts.append(f"Title:   {r.get('title', 'N/A')}")
+        report_parts.append(f"URL:     {r.get('url', 'N/A')}")
+        report_parts.append(f"Snippet: {r.get('content', '')}")
+
+
 def search_for_apartments(seen_ids: list[str]) -> str:
     """
-    Run targeted Tavily searches across rental sites and specific buildings.
+    Run targeted Tavily searches:
+      - Pass 1: General aggregator sites (Zillow, StreetEasy, etc.) + condo buildings
+      - Pass 2: Direct property websites for each target building
     Returns a compiled plain-text report for Stage 2 (Claude extraction).
     """
     tavily = TavilyClient(api_key=TAVILY_API_KEY)
@@ -171,40 +211,27 @@ def search_for_apartments(seen_ids: list[str]) -> str:
         "",
     ]
 
-    for i, query in enumerate(SEARCH_QUERIES):
-        report_parts.append(f"\n{'='*60}")
-        report_parts.append(f"QUERY: {query}")
-        report_parts.append("="*60)
-
-        # First 4 queries target general rental sites — restrict to known domains.
-        # Building-specific queries (index 4+) search the open web so building
-        # sites and their listing pages are included.
-        use_domains = APARTMENT_DOMAINS if i < 4 else None
-
+    # Pass 1 — General aggregator + condo searches
+    report_parts.append("\n" + "#"*60)
+    report_parts.append("# PASS 1: AGGREGATOR SITES (Zillow, StreetEasy, etc.)")
+    report_parts.append("#"*60)
+    for query in GENERAL_QUERIES:
         try:
-            kwargs = dict(
-                query=query,
-                search_depth="basic",
-                max_results=6,
-                include_raw_content=False,   # snippets are sufficient; raw content is too bulky
-            )
-            if use_domains:
-                kwargs["include_domains"] = use_domains
-
-            resp = tavily.search(**kwargs)
-            results = resp.get("results", [])
-            if not results:
-                report_parts.append("No results returned.")
-                continue
-
-            for r in results:
-                report_parts.append("\n--- Result ---")
-                report_parts.append(f"Title:   {r.get('title', 'N/A')}")
-                report_parts.append(f"URL:     {r.get('url', 'N/A')}")
-                report_parts.append(f"Snippet: {r.get('content', '')}")
-
+            results = _run_tavily_search(tavily, query, APARTMENT_DOMAINS, max_results=5)
+            _append_results(report_parts, f"Aggregator | {query}", results)
         except Exception as e:
             report_parts.append(f"Search failed: {e}")
+
+    # Pass 2 — Direct property website searches
+    report_parts.append("\n" + "#"*60)
+    report_parts.append("# PASS 2: DIRECT PROPERTY WEBSITES")
+    report_parts.append("#"*60)
+    for building_name, domain, query in PROPERTY_SITE_SEARCHES:
+        try:
+            results = _run_tavily_search(tavily, query, [domain], max_results=4)
+            _append_results(report_parts, f"{building_name} | {domain}", results)
+        except Exception as e:
+            report_parts.append(f"Search failed for {building_name}: {e}")
 
     return "\n".join(report_parts)
 
