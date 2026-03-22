@@ -436,5 +436,47 @@
     "price": 6000,
     "url": "https://www.351marinjc.com/floorplans/2br",
     "first_seen": "2026-03-22T03:43:01.610417"
+  },
+  "99hudson-3712": {
+    "address": "99 Hudson St #3712, Jersey City, NJ 07302",
+    "price": 5659,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-3712/kvm0k49/",
+    "first_seen": "2026-03-22T23:49:02.795657"
+  },
+  "99hudson-2108": {
+    "address": "99 Hudson St #2108, Jersey City, NJ 07302",
+    "price": 5818,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2108/vw8lhcg/",
+    "first_seen": "2026-03-22T23:49:02.795668"
+  },
+  "351marin-3606": {
+    "address": "351 Marin Blvd #3606, Jersey City, NJ 07302",
+    "price": 5735,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-22T23:49:02.795670"
+  },
+  "351marin-0906": {
+    "address": "351 Marin Blvd #0906, Jersey City, NJ 07302",
+    "price": 6285,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-03-22T23:49:02.795671"
+  },
+  "90columbus-2br-v5": {
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
+    "price": 5420,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-03-22T23:49:02.795672"
+  },
+  "quinn-2br-1027": {
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "price": 5089,
+    "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
+    "first_seen": "2026-03-22T23:49:02.795674"
+  },
+  "389washington-3405": {
+    "address": "389 Washington St #3405, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.trulia.com/home/389-washington-st-3405-jersey-city-nj-07302-108633162",
+    "first_seen": "2026-03-22T23:49:02.795675"
   }
 }
