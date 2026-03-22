@@ -231,6 +231,11 @@ Extract each distinct listing into the structured format. Exclude any listing wh
 URL appears in the already-seen list. Only include listings where an actual price is
 shown — skip any that say "inquire", "call for pricing", or have no rent listed.
 
+PRICE ACCURACY IS CRITICAL: Many pages list multiple units at different price points.
+Only record the price that is explicitly and directly tied to this specific 2BR unit.
+If a page shows a range of prices or prices for other unit types and it is ambiguous
+which price applies to this exact 2BR unit, skip the listing entirely rather than guess.
+
 Scoring guide (1–10):
  9–10 — Perfect: meets ALL criteria, great PATH proximity, luxury building
  7–8  — Great: meets requirements, solid location
@@ -293,20 +298,17 @@ def _listing_html(listing: ApartmentListing, is_top_pick: bool) -> str:
     css    = "listing top-pick" if is_top_pick else "listing"
 
     amenity_tags = "".join(
-        f'<span class="tag">{a}</span>' for a in listing.amenities[:10]
+        f'<span class="tag">{a}</span>' for a in listing.amenities[:4]
     )
     amenities_html = f'<div class="amenities">{amenity_tags}</div>' if amenity_tags else ""
 
-    sqft_str    = f" &bull; {listing.sqft:,} sqft" if listing.sqft else ""
-    bath_str    = f" &bull; {listing.bathrooms} ba" if listing.bathrooms else ""
-    floor_str   = f"<div class='detail'>🏢 {listing.floor}</div>" if listing.floor else ""
-    layout_str  = f"<div class='detail'>📐 {listing.layout_type}</div>" if listing.layout_type else ""
-    sun_str     = f"<div class='detail'>☀️ {listing.sunlight}</div>" if listing.sunlight else ""
-    finish_str  = f"<div class='detail'>✨ {listing.finishes}</div>" if listing.finishes else ""
-    avail_str   = f"<div class='detail'>📅 Available: {listing.available_date}</div>" if listing.available_date else ""
-    path_str    = f"<div class='detail path'>🚇 {listing.walk_to_path}</div>" if listing.walk_to_path else ""
-    notes_str   = f"<div class='detail muted'>📝 {listing.notes}</div>" if listing.notes else ""
-    name        = listing.building_name or listing.address
+    sqft_str   = f" &bull; {listing.sqft:,} sqft" if listing.sqft else ""
+    bath_str   = f" &bull; {listing.bathrooms} ba" if listing.bathrooms else ""
+    floor_str  = f"<div class='detail'>🏢 {listing.floor}</div>" if listing.floor else ""
+    layout_str = f"<div class='detail'>📐 {listing.layout_type}</div>" if listing.layout_type else ""
+    avail_str  = f"<div class='detail'>📅 Available: {listing.available_date}</div>" if listing.available_date else ""
+    path_str   = f"<div class='detail path'>🚇 {listing.walk_to_path}</div>" if listing.walk_to_path else ""
+    name       = listing.building_name or listing.address
 
     return f"""
 <div class="{css}">
@@ -319,12 +321,9 @@ def _listing_html(listing: ApartmentListing, is_top_pick: bool) -> str:
   <div class="detail">{listing.bedrooms} bed{bath_str}{sqft_str}</div>
   {floor_str}
   {layout_str}
-  {sun_str}
-  {finish_str}
   {amenities_html}
   {path_str}
   {avail_str}
-  {notes_str}
   <div class="score-reason">💬 {listing.score_reason}</div>
 </div>
 """
@@ -359,8 +358,7 @@ def format_email_html(results: SearchResults) -> str:
                  max-width: 680px; margin: 0 auto; padding: 24px; color: #1a1a2e; }}
   h1          {{ color: #16213e; border-bottom: 3px solid #0f3460; padding-bottom: 10px; }}
   h2          {{ color: #0f3460; margin-top: 32px; }}
-  .summary    {{ background: #e8f4f8; padding: 14px 18px; border-radius: 8px;
-                 margin-bottom: 24px; color: #16213e; line-height: 1.5; }}
+  .summary    {{ color: #6b7280; font-size: 0.88em; line-height: 1.5; margin-top: 8px; }}
   .listing    {{ background: #f7f9fc; border-left: 4px solid #0f3460;
                  padding: 16px 18px; margin: 14px 0; border-radius: 0 10px 10px 0; }}
   .top-pick   {{ background: #fffbeb; border-left: 4px solid #e9a825; }}
@@ -388,11 +386,11 @@ def format_email_html(results: SearchResults) -> str:
 <body>
   <h1>🏠 Jersey City Apartment Alert</h1>
   <p class="muted">{now} &bull; {n} new listing{"s" if n != 1 else ""} found</p>
-  <div class="summary"><strong>Summary:</strong> {results.search_summary}</div>
   {top_section}
   {other_section}
   {no_listings}
   <hr>
+  <div class="summary">{results.search_summary}</div>
   <footer>Sent by your Apartment Finder Agent &bull; Runs twice daily</footer>
 </body>
 </html>
