@@ -514,5 +514,23 @@
     "price": 5420,
     "url": "https://ironstate.com/property/50-columbus/",
     "first_seen": "2026-03-23T03:48:08.716603"
+  },
+  "99hudson-2908": {
+    "address": "99 Hudson St, Unit 2908, Jersey City, NJ 07302",
+    "price": 5818,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2908/40y55fj/",
+    "first_seen": "2026-03-23T14:19:08.677193"
+  },
+  "351marin-0906-v3": {
+    "address": "351 Marin Blvd, Unit #0906, Jersey City, NJ 07302",
+    "price": 6285,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-03-23T14:19:08.677204"
+  },
+  "90columbus-2br-v7": {
+    "address": "90 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5420,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-03-23T14:19:08.677206"
   }
 }
