@@ -478,5 +478,41 @@
     "price": 5500,
     "url": "https://www.trulia.com/home/389-washington-st-3405-jersey-city-nj-07302-108633162",
     "first_seen": "2026-03-22T23:49:02.795675"
+  },
+  "90columbus-2br-v6": {
+    "address": "90 Columbus Drive, Jersey City, NJ 07302",
+    "price": 5420,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-03-23T03:48:08.716587"
+  },
+  "351marin-0906-v2": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 6285,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-03-23T03:48:08.716598"
+  },
+  "65bay-2br-fl46-49": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 6045,
+    "url": "https://www.65bay.com/floorplans/2-br-1-ba-res-02-&-08:-fl-46---49",
+    "first_seen": "2026-03-23T03:48:08.716599"
+  },
+  "quinn-2br-1027-v2": {
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
+    "price": 5089,
+    "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
+    "first_seen": "2026-03-23T03:48:08.716601"
+  },
+  "70columbus-2br": {
+    "address": "70 Columbus Drive, Jersey City, NJ 07302",
+    "price": 5420,
+    "url": "https://ironstate.com/property/70-columbus/",
+    "first_seen": "2026-03-23T03:48:08.716602"
+  },
+  "50columbus-2br": {
+    "address": "50 Columbus Drive, Jersey City, NJ 07302",
+    "price": 5420,
+    "url": "https://ironstate.com/property/50-columbus/",
+    "first_seen": "2026-03-23T03:48:08.716603"
   }
 }
