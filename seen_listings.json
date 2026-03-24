@@ -562,5 +562,29 @@
     "price": 5089,
     "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
     "first_seen": "2026-03-24T03:39:35.352319"
+  },
+  "351marin-0906-v5": {
+    "address": "351 Marin Blvd #0906, Jersey City, NJ 07302",
+    "price": 6285,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-03-24T14:22:16.607897"
+  },
+  "351marin-0902-v3": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-24T14:22:16.607908"
+  },
+  "351marin-1502-v3": {
+    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-24T14:22:16.607909"
+  },
+  "quinn-2br-1027-v4": {
+    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
+    "price": 5089,
+    "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
+    "first_seen": "2026-03-24T14:22:16.607911"
   }
 }
