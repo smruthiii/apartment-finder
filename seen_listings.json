@@ -652,5 +652,11 @@
     "price": 5408,
     "url": "https://rent.brookfieldproperties.com/floorplans/?propertyId[]=1845044&availability=2026-01-31",
     "first_seen": "2026-03-25T14:21:27.299239"
+  },
+  "351marin-0902-v6": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-26T03:51:48.957598"
   }
 }
