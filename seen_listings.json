@@ -742,5 +742,23 @@
     "price": 5503,
     "url": "https://rent.brookfieldproperties.com/property/vyv/",
     "first_seen": "2026-03-28T03:41:29.504854"
+  },
+  "99hudson-1309": {
+    "address": "99 Hudson St, Unit 1309, Jersey City, NJ 07302",
+    "price": 3950,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1309/y25xvps/",
+    "first_seen": "2026-03-28T13:54:26.414147"
+  },
+  "351marin-0902-v11": {
+    "address": "351 Marin Blvd, Unit 0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-28T13:54:26.414155"
+  },
+  "351marin-1502-v10": {
+    "address": "351 Marin Blvd, Unit 1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-28T13:54:26.414157"
   }
 }
