@@ -712,5 +712,35 @@
     "price": 5089,
     "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
     "first_seen": "2026-03-27T14:15:03.750622"
+  },
+  "351marin-0902-v10": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-28T03:41:29.504840"
+  },
+  "351marin-1502-v9": {
+    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-28T03:41:29.504850"
+  },
+  "quinn-2br-1027-v8": {
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "price": 5089,
+    "url": "https://availability.quinnjc.com/Apartments/module/property_info/property%5Bid%5D/100026077/",
+    "first_seen": "2026-03-28T03:41:29.504852"
+  },
+  "vyv-south-2f-balcony-v2": {
+    "address": "VYV South, Downtown Jersey City, NJ 07302",
+    "price": 6603,
+    "url": "https://rent.brookfieldproperties.com/property/vyv/",
+    "first_seen": "2026-03-28T03:41:29.504853"
+  },
+  "vyv-south-2a-v2": {
+    "address": "VYV South, Downtown Jersey City, NJ 07302",
+    "price": 5503,
+    "url": "https://rent.brookfieldproperties.com/property/vyv/",
+    "first_seen": "2026-03-28T03:41:29.504854"
   }
 }
