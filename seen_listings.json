@@ -760,5 +760,29 @@
     "price": 6000,
     "url": "https://www.351marinjc.com/floorplans/2br",
     "first_seen": "2026-03-28T13:54:26.414157"
+  },
+  "351marin-1502-v11": {
+    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-29T03:58:51.193598"
+  },
+  "351marin-0902-v12": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-03-29T03:58:51.193609"
+  },
+  "45riverdr-1108": {
+    "address": "45 River Dr S, Unit 1108, Jersey City, NJ 07310",
+    "price": 0,
+    "url": "https://www.apartments.com/45-river-dr-s-jersey-city-nj-unit-1108/fyzcwvt/",
+    "first_seen": "2026-03-29T03:58:51.193611"
+  },
+  "quinn-2br-1027-v9": {
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "price": 5241,
+    "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
+    "first_seen": "2026-03-29T03:58:51.193612"
   }
 }
