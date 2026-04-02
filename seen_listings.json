@@ -802,5 +802,35 @@
     "price": 5089,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
     "first_seen": "2026-03-29T13:56:25.438491"
+  },
+  "99hudson-3506": {
+    "address": "99 Hudson St Unit 3506, Jersey City, NJ 07302",
+    "price": 5945,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-3506/8d3gx83/",
+    "first_seen": "2026-04-02T16:07:27.632724"
+  },
+  "351marin-0902-v14": {
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "price": 5980,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-02T16:07:27.632735"
+  },
+  "351marin-1502-v13": {
+    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-02T16:07:27.632736"
+  },
+  "90columbus-2br-v8": {
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
+    "price": 5705,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-04-02T16:07:27.632738"
+  },
+  "65bay-2br-fl46-49-v2": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 5791,
+    "url": "https://www.65bay.com/floorplans/2-br-1-ba-res-02-&-08:-fl-46---49",
+    "first_seen": "2026-04-02T16:07:27.632739"
   }
 }
