@@ -850,5 +850,47 @@
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
     "first_seen": "2026-04-03T03:49:19.276932"
+  },
+  "99hudson-2109": {
+    "address": "99 Hudson St #2109, Jersey City, NJ 07302",
+    "price": 5935,
+    "url": "https://streeteasy.com/building/99-hudson-street-jersey_city/2109",
+    "first_seen": "2026-04-03T14:05:18.731915"
+  },
+  "99hudson-5311": {
+    "address": "99 Hudson St #5311, Jersey City, NJ 07302",
+    "price": 5945,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-5311/ltsx8gf/",
+    "first_seen": "2026-04-03T14:05:18.731923"
+  },
+  "99hudson-2511": {
+    "address": "99 Hudson St #2511, Jersey City, NJ 07302",
+    "price": 5935,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2511/z7vv4vz/",
+    "first_seen": "2026-04-03T14:05:18.731925"
+  },
+  "351marin-3606-v2": {
+    "address": "351 Marin Blvd #3606, Jersey City, NJ 07302",
+    "price": 5735,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-03T14:05:18.731926"
+  },
+  "90columbus-2br-v10": {
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
+    "price": 5705,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-04-03T14:05:18.731928"
+  },
+  "lively-penthouse-143morgan": {
+    "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.thelivelyapartments.com/floorplans/2-bed-%7C-3-bath-%7C-penthouse",
+    "first_seen": "2026-04-03T14:05:18.731929"
+  },
+  "lively-line05-143morgan": {
+    "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.thelivelyapartments.com/floorplans/2-bed-%20-den-%7C-2-bath---line-05",
+    "first_seen": "2026-04-03T14:05:18.731930"
   }
 }
