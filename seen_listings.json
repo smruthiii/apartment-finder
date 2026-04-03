@@ -832,5 +832,23 @@
     "price": 5791,
     "url": "https://www.65bay.com/floorplans/2-br-1-ba-res-02-&-08:-fl-46---49",
     "first_seen": "2026-04-02T16:07:27.632739"
+  },
+  "351marin-0906-v7": {
+    "address": "351 Marin Blvd #0906, Jersey City, NJ 07302",
+    "price": 6285,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-04-03T03:49:19.276921"
+  },
+  "90columbus-2br-v9": {
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
+    "price": 5705,
+    "url": "https://ironstate.com/property/90-columbus/",
+    "first_seen": "2026-04-03T03:49:19.276930"
+  },
+  "quinn-2br-1027-v11": {
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "price": 5241,
+    "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
+    "first_seen": "2026-04-03T03:49:19.276932"
   }
 }
