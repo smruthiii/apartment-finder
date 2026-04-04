@@ -928,5 +928,23 @@
     "price": 5705,
     "url": "https://ironstate.com/property/90-columbus/",
     "first_seen": "2026-04-04T03:38:49.316379"
+  },
+  "351marin-1106": {
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "price": 5835,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-04T13:56:34.502964"
+  },
+  "351marin-2302": {
+    "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
+    "price": 5890,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-04T13:56:34.502975"
+  },
+  "65bay-2br-fl46-49-v3": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 5591,
+    "url": "https://www.65bay.com/floorplans/2-br-1-ba-res-02-&-08:-fl-46---49",
+    "first_seen": "2026-04-04T13:56:34.502977"
   }
 }
