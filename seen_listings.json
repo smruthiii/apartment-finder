@@ -924,22 +924,22 @@
     "first_seen": "2026-04-04T03:38:49.316377"
   },
   "90columbus-2br-v11": {
-    "address": "90 Columbus Drive, Jersey City, NJ 07302",
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
     "price": 5705,
     "url": "https://ironstate.com/property/90-columbus/",
-    "first_seen": "2026-04-04T03:38:49.316379"
+    "first_seen": "2026-04-05T13:58:50.271112"
   },
   "351marin-1106": {
     "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5835,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-05T03:57:55.551926"
+    "first_seen": "2026-04-05T13:58:50.271094"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
     "price": 5890,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-05T03:57:55.551936"
+    "first_seen": "2026-04-05T13:58:50.271104"
   },
   "65bay-2br-fl46-49-v3": {
     "address": "65 Bay Street, Jersey City, NJ 07302",
@@ -951,12 +951,30 @@
     "address": "99 Hudson St #6511, Jersey City, NJ 07302",
     "price": 5945,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-6511/g3s9sby/",
-    "first_seen": "2026-04-05T03:57:55.551938"
+    "first_seen": "2026-04-05T13:58:50.271108"
   },
   "2-2ndst-ph4202": {
     "address": "2 2nd Street, Penthouse 4202, Jersey City, NJ 07302",
     "price": 6000,
     "url": "https://www.trulia.com/home/2-2nd-st-penthouse-4202-jersey-city-nj-07302-450523693",
     "first_seen": "2026-04-05T03:57:55.551943"
+  },
+  "99hudson-5500": {
+    "address": "99 Hudson St #5500, Jersey City, NJ 07302",
+    "price": 5781,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-5500/42vzs4l/",
+    "first_seen": "2026-04-05T13:58:50.271106"
+  },
+  "99hudson-403": {
+    "address": "99 Hudson St #403, Jersey City, NJ 07302",
+    "price": 5926,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-403/qr09zfz/",
+    "first_seen": "2026-04-05T13:58:50.271110"
+  },
+  "crystalpoint-ph4202": {
+    "address": "2 2nd St, Penthouse 4202, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.trulia.com/home/2-2nd-st-penthouse-4202-jersey-city-nj-07302-450523693",
+    "first_seen": "2026-04-05T13:58:50.271111"
   }
 }
