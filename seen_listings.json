@@ -915,7 +915,7 @@
     "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-04T03:38:49.316376"
+    "first_seen": "2026-04-05T03:57:55.551942"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -933,18 +933,30 @@
     "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5835,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-04T13:56:34.502964"
+    "first_seen": "2026-04-05T03:57:55.551926"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
     "price": 5890,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-04T13:56:34.502975"
+    "first_seen": "2026-04-05T03:57:55.551936"
   },
   "65bay-2br-fl46-49-v3": {
     "address": "65 Bay Street, Jersey City, NJ 07302",
     "price": 5591,
     "url": "https://www.65bay.com/floorplans/2-br-1-ba-res-02-&-08:-fl-46---49",
-    "first_seen": "2026-04-04T13:56:34.502977"
+    "first_seen": "2026-04-05T03:57:55.551940"
+  },
+  "99hudson-6511": {
+    "address": "99 Hudson St #6511, Jersey City, NJ 07302",
+    "price": 5945,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-6511/g3s9sby/",
+    "first_seen": "2026-04-05T03:57:55.551938"
+  },
+  "2-2ndst-ph4202": {
+    "address": "2 2nd Street, Penthouse 4202, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.trulia.com/home/2-2nd-st-penthouse-4202-jersey-city-nj-07302-450523693",
+    "first_seen": "2026-04-05T03:57:55.551943"
   }
 }
