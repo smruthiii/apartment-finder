@@ -900,10 +900,10 @@
     "first_seen": "2026-04-04T03:38:49.316364"
   },
   "351marin-1502-v14": {
-    "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1502, Jersey City, NJ 07302",
     "price": 5955,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-08T03:55:19.759043"
+    "first_seen": "2026-04-08T14:48:50.653409"
   },
   "351marin-3606-v3": {
     "address": "351 Marin Blvd #3606, Jersey City, NJ 07302",
@@ -915,7 +915,7 @@
     "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-08T03:55:19.759047"
+    "first_seen": "2026-04-08T14:48:50.653413"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -927,7 +927,7 @@
     "address": "90 Columbus Drive, Jersey City, NJ 07302",
     "price": 5705,
     "url": "https://ironstate.com/property/90-columbus/",
-    "first_seen": "2026-04-08T03:55:19.759049"
+    "first_seen": "2026-04-08T14:48:50.653405"
   },
   "351marin-1106": {
     "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
@@ -963,7 +963,7 @@
     "address": "99 Hudson St, Unit 5500, Jersey City, NJ 07302",
     "price": 5935,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-5500/42vzs4l/",
-    "first_seen": "2026-04-07T03:53:11.573458"
+    "first_seen": "2026-04-08T14:48:50.653391"
   },
   "99hudson-403": {
     "address": "99 Hudson St #403, Jersey City, NJ 07302",
@@ -996,15 +996,27 @@
     "first_seen": "2026-04-06T14:14:14.545835"
   },
   "351marin-0902-v16": {
-    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 0902, Jersey City, NJ 07302",
     "price": 5935,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-08T03:55:19.759035"
+    "first_seen": "2026-04-08T14:48:50.653407"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan Street (The Lively), Jersey City, NJ 07302",
     "price": 4500,
     "url": "https://www.thelivelyapartments.com/floorplans/2-bed-%7C-2-bath---line-02",
     "first_seen": "2026-04-07T03:53:11.573478"
+  },
+  "151bay-2101": {
+    "address": "151 Bay Street, Unit 2101, Jersey City, NJ 07302",
+    "price": 3500,
+    "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/2101",
+    "first_seen": "2026-04-08T14:48:50.653403"
+  },
+  "soho-lofts-2br": {
+    "address": "273 16th Street, Jersey City, NJ 07310",
+    "price": 5095,
+    "url": "https://verisresidential.com/jersey-city-nj-apartments/soho-lofts/",
+    "first_seen": "2026-04-08T14:48:50.653411"
   }
 }
