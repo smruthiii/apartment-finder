@@ -903,7 +903,7 @@
     "address": "351 Marin Blvd #1502, Jersey City, NJ 07302",
     "price": 5955,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-09T14:58:15.149567"
+    "first_seen": "2026-04-10T04:12:01.371276"
   },
   "351marin-3606-v3": {
     "address": "351 Marin Blvd #3606, Jersey City, NJ 07302",
@@ -915,7 +915,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-09T14:58:15.149575"
+    "first_seen": "2026-04-10T04:12:01.371277"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -924,10 +924,10 @@
     "first_seen": "2026-04-04T03:38:49.316377"
   },
   "90columbus-2br-v11": {
-    "address": "90 Columbus Drive, Jersey City, NJ 07302",
+    "address": "90 Columbus Dr, Jersey City, NJ 07302",
     "price": 5705,
     "url": "https://ironstate.com/property/90-columbus/",
-    "first_seen": "2026-04-08T14:48:50.653405"
+    "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
     "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
@@ -999,7 +999,7 @@
     "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
     "price": 5935,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-09T14:58:15.149554"
+    "first_seen": "2026-04-10T04:12:01.371274"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan Street (The Lively), Jersey City, NJ 07302",
@@ -1026,10 +1026,10 @@
     "first_seen": "2026-04-09T14:58:15.149571"
   },
   "99hudson-2309": {
-    "address": "99 Hudson St, Unit 2309, Jersey City, NJ 07302",
+    "address": "99 Hudson St #2309, Jersey City, NJ 07302",
     "price": 5857,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2309/7ef7qvx/",
-    "first_seen": "2026-04-09T03:52:29.712819"
+    "first_seen": "2026-04-10T04:12:01.371264"
   },
   "28bright-306": {
     "address": "28 Bright St, Unit 306, Jersey City, NJ 07302",
@@ -1042,5 +1042,11 @@
     "price": 5930,
     "url": "https://rent.brookfieldproperties.com/location/jersey-city/",
     "first_seen": "2026-04-09T14:58:15.149570"
+  },
+  "50columbus-2br-v2": {
+    "address": "50 Columbus Dr, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://ironstate.com/property/50-columbus/",
+    "first_seen": "2026-04-10T04:12:01.371279"
   }
 }
