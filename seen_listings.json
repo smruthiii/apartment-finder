@@ -961,9 +961,9 @@
   },
   "99hudson-5500": {
     "address": "99 Hudson St, Unit 5500, Jersey City, NJ 07302",
-    "price": 5935,
+    "price": 6000,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-5500/42vzs4l/",
-    "first_seen": "2026-04-09T03:52:29.712817"
+    "first_seen": "2026-04-13T14:55:25.370337"
   },
   "99hudson-403": {
     "address": "99 Hudson St #403, Jersey City, NJ 07302",
@@ -1033,9 +1033,9 @@
   },
   "28bright-306": {
     "address": "28 Bright St, Unit 306, Jersey City, NJ 07302",
-    "price": 4500,
+    "price": 5500,
     "url": "https://www.apartments.com/28-bright-st-jersey-city-nj-unit-306/xqpr46p/",
-    "first_seen": "2026-04-09T03:52:29.712821"
+    "first_seen": "2026-04-13T14:55:25.370341"
   },
   "vyv-south-2e": {
     "address": "VYV South, Jersey City, NJ 07302",
@@ -1050,15 +1050,33 @@
     "first_seen": "2026-04-10T04:12:01.371279"
   },
   "quinn-2br-a1e": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-13T04:25:00.814946"
+    "first_seen": "2026-04-13T14:55:25.370358"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
     "first_seen": "2026-04-12T04:15:20.158532"
+  },
+  "88morgan-ph2-1": {
+    "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/1b4l8p5/",
+    "first_seen": "2026-04-13T14:55:25.370325"
+  },
+  "99hudson-6611": {
+    "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
+    "price": 6000,
+    "url": "https://streeteasy.com/building/99-hudson-street-jersey_city/6611",
+    "first_seen": "2026-04-13T14:55:25.370340"
+  },
+  "160-1st-st-1213": {
+    "address": "160 1st St, Unit 1213, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/doorman_keyword/",
+    "first_seen": "2026-04-13T14:55:25.370360"
   }
 }
