@@ -912,10 +912,10 @@
     "first_seen": "2026-04-12T14:02:26.242623"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-13T04:25:00.814948"
+    "first_seen": "2026-04-15T04:13:23.264026"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -1029,7 +1029,7 @@
     "address": "99 Hudson St, Unit 2309, Jersey City, NJ 07302",
     "price": 5857,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2309/7ef7qvx/",
-    "first_seen": "2026-04-14T04:13:38.716099"
+    "first_seen": "2026-04-15T04:13:23.264027"
   },
   "28bright-306": {
     "address": "28 Bright St, Unit 306, Jersey City, NJ 07302",
@@ -1044,10 +1044,10 @@
     "first_seen": "2026-04-09T14:58:15.149570"
   },
   "50columbus-2br-v2": {
-    "address": "50 Columbus Dr, Jersey City, NJ 07302",
+    "address": "50 Christopher Columbus Drive, Jersey City, NJ 07302",
     "price": 5500,
     "url": "https://ironstate.com/property/50-columbus/",
-    "first_seen": "2026-04-10T04:12:01.371279"
+    "first_seen": "2026-04-15T04:13:23.264030"
   },
   "quinn-2br-a1e": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
@@ -1056,10 +1056,10 @@
     "first_seen": "2026-04-13T14:55:25.370358"
   },
   "quinn-2br-1147": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-12T04:15:20.158532"
+    "first_seen": "2026-04-15T04:13:23.264023"
   },
   "88morgan-ph2-1": {
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
@@ -1074,10 +1074,10 @@
     "first_seen": "2026-04-13T14:55:25.370340"
   },
   "160-1st-st-1213": {
-    "address": "160 1st St, Unit 1213, Jersey City, NJ 07302",
+    "address": "160 1st Street, Unit 1213, Jersey City, NJ 07302",
     "price": 5500,
     "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/doorman_keyword/",
-    "first_seen": "2026-04-13T14:55:25.370360"
+    "first_seen": "2026-04-15T04:13:23.264037"
   },
   "351marin-ph09": {
     "address": "351 Marin Blvd, Unit PH09, Jersey City, NJ 07302",
@@ -1108,5 +1108,35 @@
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
     "first_seen": "2026-04-14T14:54:01.243975"
+  },
+  "351marin-2br-v16": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 5735,
+    "url": "https://www.351marinjc.com/floorplans/2br",
+    "first_seen": "2026-04-15T04:13:23.264012"
+  },
+  "65bay-2br-general": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 5591,
+    "url": "https://www.65bay.com/floorplans",
+    "first_seen": "2026-04-15T04:13:23.264029"
+  },
+  "151bay-1102": {
+    "address": "151 Bay Street, Unit 1102, Jersey City, NJ 07302",
+    "price": 4000,
+    "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/1102",
+    "first_seen": "2026-04-15T04:13:23.264032"
+  },
+  "151bay-1206": {
+    "address": "151 Bay Street, Unit 1206, Jersey City, NJ 07302",
+    "price": 4350,
+    "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/1206",
+    "first_seen": "2026-04-15T04:13:23.264035"
+  },
+  "88morgan-3107": {
+    "address": "88 Morgan Street, Unit 3107, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://www.trulia.com/for_rent/Jersey_City,NJ/doorman_keyword/",
+    "first_seen": "2026-04-15T04:13:23.264039"
   }
 }
