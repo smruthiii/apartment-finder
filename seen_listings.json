@@ -912,10 +912,10 @@
     "first_seen": "2026-04-16T04:19:06.301889"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-15T14:50:21.526841"
+    "first_seen": "2026-04-16T15:02:28.948035"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5915,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-16T04:19:06.301888"
+    "first_seen": "2026-04-16T15:02:28.948017"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1023,7 +1023,7 @@
     "address": "99 Hudson St #6300, Jersey City, NJ 07302",
     "price": 6900,
     "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/6300/pad",
-    "first_seen": "2026-04-11T03:42:13.698505"
+    "first_seen": "2026-04-16T15:02:28.948029"
   },
   "99hudson-2309": {
     "address": "99 Hudson St, Unit 2309, Jersey City, NJ 07302",
@@ -1050,10 +1050,10 @@
     "first_seen": "2026-04-15T04:13:23.264030"
   },
   "quinn-2br-a1e": {
-    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-13T14:55:25.370358"
+    "first_seen": "2026-04-16T15:02:28.948033"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
@@ -1063,9 +1063,9 @@
   },
   "88morgan-ph2-1": {
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
-    "price": 5858,
+    "price": 0,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/1b4l8p5/",
-    "first_seen": "2026-04-16T04:19:06.301874"
+    "first_seen": "2026-04-16T15:02:28.948031"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
