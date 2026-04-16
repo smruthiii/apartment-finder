@@ -906,10 +906,10 @@
     "first_seen": "2026-04-13T04:25:00.814944"
   },
   "351marin-3606-v3": {
-    "address": "351 Marin Blvd #3606, Jersey City, NJ 07302",
-    "price": 5900,
+    "address": "351 Marin Blvd, Unit 3606, Jersey City, NJ 07302",
+    "price": 5930,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-12T14:02:26.242623"
+    "first_seen": "2026-04-16T04:19:06.301889"
   },
   "quinn-2br-1027-v12": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5915,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-15T14:50:21.526837"
+    "first_seen": "2026-04-16T04:19:06.301888"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -987,7 +987,7 @@
     "address": "99 Hudson St, Unit 2607X, Jersey City, NJ 07302",
     "price": 5858,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2607x/bkc13s8/",
-    "first_seen": "2026-04-15T14:50:21.526845"
+    "first_seen": "2026-04-16T04:19:06.301885"
   },
   "460grand-2br": {
     "address": "460 Grand St, Jersey City, NJ 07302",
@@ -1029,7 +1029,7 @@
     "address": "99 Hudson St, Unit 2309, Jersey City, NJ 07302",
     "price": 5857,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2309/7ef7qvx/",
-    "first_seen": "2026-04-15T14:50:21.526844"
+    "first_seen": "2026-04-16T04:19:06.301883"
   },
   "28bright-306": {
     "address": "28 Bright St, Unit 306, Jersey City, NJ 07302",
@@ -1063,9 +1063,9 @@
   },
   "88morgan-ph2-1": {
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
-    "price": 6000,
+    "price": 5858,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/1b4l8p5/",
-    "first_seen": "2026-04-15T14:50:21.526827"
+    "first_seen": "2026-04-16T04:19:06.301874"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1150,5 +1150,11 @@
     "price": 4500,
     "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/1402",
     "first_seen": "2026-04-15T14:50:21.526851"
+  },
+  "quinn-2br-current": {
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "price": 5241,
+    "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
+    "first_seen": "2026-04-16T04:19:06.301891"
   }
 }
