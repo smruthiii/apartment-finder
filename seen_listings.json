@@ -915,7 +915,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-16T15:02:28.948035"
+    "first_seen": "2026-04-17T14:24:04.366711"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5915,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-17T04:16:38.765579"
+    "first_seen": "2026-04-17T14:24:04.366708"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1003,9 +1003,9 @@
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
-    "price": 5959,
+    "price": 4500,
     "url": "https://www.thelivelyapartments.com/floorplans/2-bed-%7C-2-bath---line-02",
-    "first_seen": "2026-04-11T03:42:13.698524"
+    "first_seen": "2026-04-17T14:24:04.366713"
   },
   "151bay-2101": {
     "address": "151 Bay Street #2101, Jersey City, NJ 07302",
@@ -1020,16 +1020,16 @@
     "first_seen": "2026-04-09T03:52:29.712824"
   },
   "99hudson-6300": {
-    "address": "99 Hudson St #6300, Jersey City, NJ 07302",
-    "price": 6900,
+    "address": "99 Hudson St, Unit 6300, Jersey City, NJ 07302",
+    "price": 5857,
     "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/6300/pad",
-    "first_seen": "2026-04-16T15:02:28.948029"
+    "first_seen": "2026-04-17T14:24:04.366693"
   },
   "99hudson-2309": {
     "address": "99 Hudson St, Unit 2309, Jersey City, NJ 07302",
     "price": 5857,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-2309/7ef7qvx/",
-    "first_seen": "2026-04-17T04:16:38.765585"
+    "first_seen": "2026-04-17T14:24:04.366705"
   },
   "28bright-306": {
     "address": "28 Bright St, Unit 306, Jersey City, NJ 07302",
@@ -1053,7 +1053,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-16T15:02:28.948033"
+    "first_seen": "2026-04-17T14:24:04.366710"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
