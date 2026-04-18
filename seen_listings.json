@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5915,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-18T03:52:18.560704"
+    "first_seen": "2026-04-18T14:04:00.444171"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1053,7 +1053,7 @@
     "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-18T03:52:18.560714"
+    "first_seen": "2026-04-18T14:04:00.444184"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
@@ -1092,10 +1092,10 @@
     "first_seen": "2026-04-17T04:16:38.765582"
   },
   "quinn-2br-1027sqft": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-14T04:13:38.716102"
+    "first_seen": "2026-04-18T14:04:00.444186"
   },
   "quinn-2br-b2e-1147": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
