@@ -912,10 +912,10 @@
     "first_seen": "2026-04-18T03:52:18.560722"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-18T03:52:18.560716"
+    "first_seen": "2026-05-01T14:19:50.038909"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd Unit 1106, Jersey City, NJ 07302",
     "price": 5930,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-01T04:54:34.270786"
+    "first_seen": "2026-05-01T14:19:50.038905"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1050,10 +1050,10 @@
     "first_seen": "2026-04-15T04:13:23.264030"
   },
   "quinn-2br-a1e": {
-    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-18T14:04:00.444184"
+    "first_seen": "2026-05-01T14:19:50.038907"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St, Jersey City, NJ 07302",
@@ -1164,10 +1164,10 @@
     "first_seen": "2026-04-17T04:16:38.765584"
   },
   "99hudson-6510": {
-    "address": "99 Hudson St, Unit 6510, Jersey City, NJ 07302",
-    "price": 6000,
+    "address": "99 Hudson St Unit 6510, Jersey City, NJ 07302",
+    "price": 5826,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-6510/xnnm42n/",
-    "first_seen": "2026-05-01T04:54:34.270785"
+    "first_seen": "2026-05-01T14:19:50.038893"
   },
   "689marin-503-zephyr": {
     "address": "689 Marin Blvd, Unit 503, Jersey City, NJ 07310",
@@ -1186,5 +1186,11 @@
     "price": 6000,
     "url": "https://www.65bay.com/interactivepropertymap",
     "first_seen": "2026-05-01T04:54:34.270791"
+  },
+  "70columbus-2br-v2": {
+    "address": "70 Christopher Columbus Dr, Jersey City, NJ 07302",
+    "price": 5500,
+    "url": "https://ironstate.com/property/70-columbus/",
+    "first_seen": "2026-05-01T14:19:50.038911"
   }
 }
