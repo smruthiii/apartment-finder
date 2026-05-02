@@ -915,7 +915,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-01T14:19:50.038909"
+    "first_seen": "2026-05-02T14:12:40.483558"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5930,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-02T04:22:29.430888"
+    "first_seen": "2026-05-02T14:12:40.483554"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1056,16 +1056,16 @@
     "first_seen": "2026-05-01T14:19:50.038907"
   },
   "quinn-2br-1147": {
-    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-04-15T14:50:21.526839"
+    "first_seen": "2026-05-02T14:12:40.483556"
   },
   "88morgan-ph2-1": {
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
     "price": 0,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/rhs5011/",
-    "first_seen": "2026-05-02T04:22:29.430877"
+    "first_seen": "2026-05-02T14:12:40.483541"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1192,5 +1192,11 @@
     "price": 5500,
     "url": "https://ironstate.com/property/70-columbus/",
     "first_seen": "2026-05-01T14:19:50.038911"
+  },
+  "75parkln-3507": {
+    "address": "75 Park Ln S #3507, Jersey City, NJ 07310",
+    "price": 0,
+    "url": "https://www.trulia.com/home/75-park-ln-3507-jersey-city-nj-07310-445838990",
+    "first_seen": "2026-05-02T14:12:40.483553"
   }
 }
