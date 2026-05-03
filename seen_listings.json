@@ -915,7 +915,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-03T04:45:34.960494"
+    "first_seen": "2026-05-03T14:13:41.409439"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5930,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-03T04:45:34.960490"
+    "first_seen": "2026-05-03T14:13:41.409435"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1059,13 +1059,13 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-05-03T04:45:34.960492"
+    "first_seen": "2026-05-03T14:13:41.409437"
   },
   "88morgan-ph2-1": {
-    "address": "88 Morgan St Unit PH2-1, Jersey City, NJ 07302",
+    "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
     "price": 6000,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/rhs5011/",
-    "first_seen": "2026-05-03T04:45:34.960487"
+    "first_seen": "2026-05-03T14:13:41.409421"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1204,5 +1204,17 @@
     "price": 5889,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1805/85y14f1/",
     "first_seen": "2026-05-03T04:45:34.960496"
+  },
+  "99hudson-4209": {
+    "address": "99 Hudson St, Unit 4209, Jersey City, NJ 07302",
+    "price": 5826,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-4209/pm9j17s/",
+    "first_seen": "2026-05-03T14:13:41.409432"
+  },
+  "99hudson-3610-hotpads": {
+    "address": "99 Hudson St, Apt 3610, Jersey City, NJ 07302",
+    "price": 5826,
+    "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/3610/pad",
+    "first_seen": "2026-05-03T14:13:41.409434"
   }
 }
