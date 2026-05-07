@@ -915,7 +915,7 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-05T04:21:15.645531"
+    "first_seen": "2026-05-07T04:39:11.288479"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5950,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-06T04:38:20.792874"
+    "first_seen": "2026-05-07T04:39:11.288474"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1059,13 +1059,13 @@
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-05-05T04:21:15.645529"
+    "first_seen": "2026-05-07T04:39:11.288477"
   },
   "88morgan-ph2-1": {
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
     "price": 6000,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/rhs5011/",
-    "first_seen": "2026-05-06T04:38:20.792865"
+    "first_seen": "2026-05-07T04:39:11.288463"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1200,10 +1200,10 @@
     "first_seen": "2026-05-04T04:45:13.150740"
   },
   "99hudson-1805": {
-    "address": "99 Hudson St Unit 1805, Jersey City, NJ 07302",
+    "address": "99 Hudson St, Unit 1805, Jersey City, NJ 07302",
     "price": 5889,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1805/85y14f1/",
-    "first_seen": "2026-05-03T04:45:34.960496"
+    "first_seen": "2026-05-07T04:39:11.288483"
   },
   "99hudson-4209": {
     "address": "99 Hudson St, Unit 4209, Jersey City, NJ 07302",
@@ -1234,5 +1234,17 @@
     "price": 5900,
     "url": "https://streeteasy.com/building/99-hudson-street-jersey_city/1705",
     "first_seen": "2026-05-06T04:38:20.792872"
+  },
+  "65bay-ph50-06": {
+    "address": "65 Bay Street, Unit PH50-06, Jersey City, NJ 07302",
+    "price": 4058,
+    "url": "https://www.65bay.com/interactivepropertymap",
+    "first_seen": "2026-05-07T04:39:11.288481"
+  },
+  "99hudson-1506": {
+    "address": "99 Hudson St, Apt 1506, Jersey City, NJ 07302",
+    "price": 6700,
+    "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/1506/pad",
+    "first_seen": "2026-05-07T04:39:11.288482"
   }
 }
