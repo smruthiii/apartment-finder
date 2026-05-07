@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit #1106, Jersey City, NJ 07302",
     "price": 5950,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-07T04:39:11.288474"
+    "first_seen": "2026-05-07T15:30:14.685595"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1065,7 +1065,7 @@
     "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
     "price": 6000,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/rhs5011/",
-    "first_seen": "2026-05-07T04:39:11.288463"
+    "first_seen": "2026-05-07T15:30:14.685586"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1203,13 +1203,13 @@
     "address": "99 Hudson St, Unit 1805, Jersey City, NJ 07302",
     "price": 5889,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1805/85y14f1/",
-    "first_seen": "2026-05-07T04:39:11.288483"
+    "first_seen": "2026-05-07T15:30:14.685600"
   },
   "99hudson-4209": {
     "address": "99 Hudson St, Unit 4209, Jersey City, NJ 07302",
     "price": 5826,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-4209/pm9j17s/",
-    "first_seen": "2026-05-03T14:13:41.409432"
+    "first_seen": "2026-05-07T15:30:14.685598"
   },
   "99hudson-3610-hotpads": {
     "address": "99 Hudson St, Apt 3610, Jersey City, NJ 07302",
