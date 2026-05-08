@@ -912,10 +912,10 @@
     "first_seen": "2026-04-18T03:52:18.560722"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-07T04:39:11.288479"
+    "first_seen": "2026-05-08T04:20:57.742395"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5950,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-07T15:30:14.685595"
+    "first_seen": "2026-05-08T04:20:57.742391"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -1011,7 +1011,7 @@
     "address": "151 Bay Street #2101, Jersey City, NJ 07302",
     "price": 3500,
     "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/2101",
-    "first_seen": "2026-04-18T03:52:18.560720"
+    "first_seen": "2026-05-08T04:20:57.742377"
   },
   "soho-lofts-2br": {
     "address": "273 16th Street, Jersey City, NJ 07310",
@@ -1050,10 +1050,10 @@
     "first_seen": "2026-05-05T04:21:15.645533"
   },
   "quinn-2br-a1e": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5959,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/fp_name/a1e-1151097",
-    "first_seen": "2026-05-06T04:38:20.792876"
+    "first_seen": "2026-05-08T04:20:57.742394"
   },
   "quinn-2br-1147": {
     "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
@@ -1062,10 +1062,10 @@
     "first_seen": "2026-05-07T04:39:11.288477"
   },
   "88morgan-ph2-1": {
-    "address": "88 Morgan St, Unit PH2-1, Jersey City, NJ 07302",
+    "address": "88 Morgan St Unit PH2-1, Jersey City, NJ 07302",
     "price": 6000,
     "url": "https://www.apartments.com/88-morgan-st-jersey-city-nj-unit-ph2-1/rhs5011/",
-    "first_seen": "2026-05-07T15:30:14.685586"
+    "first_seen": "2026-05-08T04:20:57.742392"
   },
   "99hudson-6611": {
     "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
@@ -1164,10 +1164,10 @@
     "first_seen": "2026-04-17T04:16:38.765584"
   },
   "99hudson-6510": {
-    "address": "99 Hudson St #6510, Jersey City, NJ 07302",
-    "price": 5900,
+    "address": "99 Hudson St Unit 6510, Jersey City, NJ 07302",
+    "price": 5889,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-6510/xnnm42n/",
-    "first_seen": "2026-05-06T04:38:20.792871"
+    "first_seen": "2026-05-08T04:20:57.742387"
   },
   "689marin-503-zephyr": {
     "address": "689 Marin Blvd, Unit 503, Jersey City, NJ 07310",
@@ -1242,9 +1242,15 @@
     "first_seen": "2026-05-07T04:39:11.288481"
   },
   "99hudson-1506": {
-    "address": "99 Hudson St, Apt 1506, Jersey City, NJ 07302",
+    "address": "99 Hudson St Apt 1506, Jersey City, NJ 07302",
     "price": 6700,
     "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/1506/pad",
-    "first_seen": "2026-05-07T04:39:11.288482"
+    "first_seen": "2026-05-08T04:20:57.742389"
+  },
+  "151bay-1006": {
+    "address": "151 Bay St Unit 1006, Jersey City, NJ 07302",
+    "price": 4553,
+    "url": "https://www.realtor.com/rentals/details/151-Bay-St-1006_Jersey-City_NJ_07302_M93868-99154",
+    "first_seen": "2026-05-08T04:20:57.742399"
   }
 }
