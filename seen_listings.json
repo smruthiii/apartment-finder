@@ -960,10 +960,10 @@
     "first_seen": "2026-04-05T03:57:55.551943"
   },
   "99hudson-5500": {
-    "address": "99 Hudson St #5500, Jersey City, NJ 07302",
-    "price": 5900,
+    "address": "99 Hudson St, Unit 5500, Jersey City, NJ 07302",
+    "price": 5500,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-5500/42vzs4l/",
-    "first_seen": "2026-05-06T04:38:20.792868"
+    "first_seen": "2026-05-09T04:29:24.805231"
   },
   "99hudson-403": {
     "address": "99 Hudson St #403, Jersey City, NJ 07302",
@@ -978,10 +978,10 @@
     "first_seen": "2026-04-10T14:19:35.081152"
   },
   "quinn-2br-5241": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-04-06T04:11:35.682742"
+    "first_seen": "2026-05-09T04:29:24.805234"
   },
   "99hudson-2607x": {
     "address": "99 Hudson St, Unit 2607X, Jersey City, NJ 07302",
@@ -1252,5 +1252,11 @@
     "price": 4553,
     "url": "https://www.realtor.com/rentals/details/151-Bay-St-1006_Jersey-City_NJ_07302_M93868-99154",
     "first_seen": "2026-05-08T04:20:57.742399"
+  },
+  "351marin-2415": {
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 4535,
+    "url": "https://www.351marinjc.com/availableunits",
+    "first_seen": "2026-05-09T04:29:24.805219"
   }
 }
