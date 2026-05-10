@@ -978,10 +978,10 @@
     "first_seen": "2026-04-10T14:19:35.081152"
   },
   "quinn-2br-5241": {
-    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-09T04:29:24.805234"
+    "first_seen": "2026-05-10T14:22:33.043560"
   },
   "99hudson-2607x": {
     "address": "99 Hudson St, Unit 2607X, Jersey City, NJ 07302",
@@ -1164,10 +1164,10 @@
     "first_seen": "2026-04-17T04:16:38.765584"
   },
   "99hudson-6510": {
-    "address": "99 Hudson St, Unit 6510, Jersey City, NJ 07302",
+    "address": "99 Hudson Street #6510, Jersey City, NJ 07302",
     "price": 7200,
     "url": "https://streeteasy.com/building/99-hudson-street-jersey_city",
-    "first_seen": "2026-05-10T04:50:51.548136"
+    "first_seen": "2026-05-10T14:22:33.043558"
   },
   "689marin-503-zephyr": {
     "address": "689 Marin Blvd, Unit 503, Jersey City, NJ 07310",
@@ -1242,10 +1242,10 @@
     "first_seen": "2026-05-07T04:39:11.288481"
   },
   "99hudson-1506": {
-    "address": "99 Hudson St Apt 1506, Jersey City, NJ 07302",
+    "address": "99 Hudson Street #1506, Jersey City, NJ 07302",
     "price": 6700,
     "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/1506/pad",
-    "first_seen": "2026-05-08T04:20:57.742389"
+    "first_seen": "2026-05-10T14:22:33.043563"
   },
   "151bay-1006": {
     "address": "151 Bay St Unit 1006, Jersey City, NJ 07302",
@@ -1254,16 +1254,16 @@
     "first_seen": "2026-05-08T04:20:57.742399"
   },
   "351marin-2415": {
-    "address": "351 Marin Blvd, Unit 2415, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 4535,
     "url": "https://www.351marinjc.com/availableunits",
-    "first_seen": "2026-05-09T14:20:04.809970"
+    "first_seen": "2026-05-10T14:22:33.043544"
   },
   "151bay-2br": {
     "address": "151 Bay Street, Jersey City, NJ 07302",
     "price": 5415,
     "url": "https://www.apartments.com/151-bay-street-jersey-city-nj/sb794k7/",
-    "first_seen": "2026-05-09T14:20:04.809969"
+    "first_seen": "2026-05-10T14:22:33.043562"
   },
   "65bay-2br-fl9-47": {
     "address": "65 Bay Street, Jersey City, NJ 07302",
@@ -1288,5 +1288,11 @@
     "price": 5500,
     "url": "https://www.apartments.com/45-river-dr-s-jersey-city-nj-unit-507/hxnfx13/",
     "first_seen": "2026-05-10T04:50:51.548144"
+  },
+  "65bay-ph5006": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 4058,
+    "url": "https://www.65bay.com/interactivepropertymap",
+    "first_seen": "2026-05-10T14:22:33.043556"
   }
 }
