@@ -1009,15 +1009,15 @@
   },
   "151bay-2101": {
     "address": "151 Bay Street #2101, Jersey City, NJ 07302",
-    "price": 3500,
+    "price": 6027,
     "url": "https://streeteasy.com/building/155-bay-street-at-provost-square/2101",
-    "first_seen": "2026-05-08T04:20:57.742377"
+    "first_seen": "2026-05-11T16:07:26.108952"
   },
   "soho-lofts-2br": {
-    "address": "Soho Lofts, Jersey City, NJ 07302",
+    "address": "273 16th Street, Jersey City, NJ 07310",
     "price": 4800,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/soho-lofts/",
-    "first_seen": "2026-05-11T05:04:01.590110"
+    "first_seen": "2026-05-11T16:07:26.108970"
   },
   "99hudson-6300": {
     "address": "99 Hudson St, Unit 6300, Jersey City, NJ 07302",
@@ -1176,10 +1176,10 @@
     "first_seen": "2026-05-01T04:54:34.270789"
   },
   "quinn-2br-from5241": {
-    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-01T04:54:34.270790"
+    "first_seen": "2026-05-11T16:07:26.108972"
   },
   "65bay-2br-current": {
     "address": "65 Bay Street, Jersey City, NJ 07302",
@@ -1257,7 +1257,7 @@
     "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 4535,
     "url": "https://www.351marinjc.com/availableunits",
-    "first_seen": "2026-05-10T14:22:33.043544"
+    "first_seen": "2026-05-11T16:07:26.108966"
   },
   "151bay-2br": {
     "address": "151 Bay Street, Jersey City, NJ 07302",
@@ -1308,15 +1308,21 @@
     "first_seen": "2026-05-11T05:04:01.590101"
   },
   "blvd-collection-2br-v2": {
-    "address": "475 Washington Blvd (or 425 Washington Blvd), Jersey City, NJ 07310",
+    "address": "425 Washington Blvd, Jersey City, NJ 07310",
     "price": 5250,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-    "first_seen": "2026-05-11T05:04:01.590109"
+    "first_seen": "2026-05-11T16:07:26.108968"
   },
   "351marin-2br-5955": {
     "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 5955,
     "url": "https://www.351marinjc.com/floorplans/2br",
     "first_seen": "2026-05-11T05:04:01.590115"
+  },
+  "65bay-2br-res04-06-fl9-47": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 5955,
+    "url": "https://www.65bay.com/floorplans/2-br-2-ba-res-04-&-06:-fl-9---47",
+    "first_seen": "2026-05-11T16:07:26.108974"
   }
 }
