@@ -1324,5 +1324,29 @@
     "price": 5955,
     "url": "https://www.65bay.com/floorplans/2-br-2-ba-res-04-&-06:-fl-9---47",
     "first_seen": "2026-05-11T16:07:26.108974"
+  },
+  "25parkln-3008": {
+    "address": "25 Park Lane South, Unit 3008, Jersey City, NJ 07310",
+    "price": 5570,
+    "url": "https://www.apartments.com/25-park-ln-s-jersey-city-nj-unit-3008/xf7129p/",
+    "first_seen": "2026-05-12T04:42:38.972450"
+  },
+  "99hudson-2806": {
+    "address": "99 Hudson Street, Unit 2806, Jersey City, NJ 07302",
+    "price": 5900,
+    "url": "https://hotpads.com/99-hudson-st-jersey-city-nj-07302-244sjq0/2806/pad",
+    "first_seen": "2026-05-12T04:42:38.972463"
+  },
+  "280marin-6m": {
+    "address": "280 Marin Blvd, Unit 6M, Jersey City, NJ 07302",
+    "price": 5000,
+    "url": "https://www.apartments.com/280-marin-blvd-jersey-city-nj-unit-6m/91yqhf4/",
+    "first_seen": "2026-05-12T04:42:38.972465"
+  },
+  "372-9th-jc-2br": {
+    "address": "372 9th Street, Jersey City, NJ 07302",
+    "price": 5200,
+    "url": "https://hotpads.com/372-9th-luxury-rentals-jersey-city-nj-07302-240hrk0/pad",
+    "first_seen": "2026-05-12T04:42:38.972467"
   }
 }
