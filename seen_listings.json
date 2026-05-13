@@ -912,10 +912,10 @@
     "first_seen": "2026-04-18T03:52:18.560722"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street, Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-09T14:20:04.809972"
+    "first_seen": "2026-05-13T15:47:20.533337"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -1017,7 +1017,7 @@
     "address": "273 16th Street, Jersey City, NJ 07310",
     "price": 4800,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/soho-lofts/",
-    "first_seen": "2026-05-13T04:54:55.191066"
+    "first_seen": "2026-05-13T15:47:20.533340"
   },
   "99hudson-6300": {
     "address": "99 Hudson St, Unit 6300, Jersey City, NJ 07302",
@@ -1257,7 +1257,7 @@
     "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 4535,
     "url": "https://www.351marinjc.com/availableunits",
-    "first_seen": "2026-05-13T04:54:55.191053"
+    "first_seen": "2026-05-13T15:47:20.533327"
   },
   "151bay-2br": {
     "address": "151 Bay Street, Jersey City, NJ 07302",
@@ -1311,7 +1311,7 @@
     "address": "425 Washington Blvd, Jersey City, NJ 07310",
     "price": 5250,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/the-blvd-collection/",
-    "first_seen": "2026-05-13T04:54:55.191068"
+    "first_seen": "2026-05-13T15:47:20.533342"
   },
   "351marin-2br-5955": {
     "address": "351 Marin Blvd, Jersey City, NJ 07302",
@@ -1366,5 +1366,11 @@
     "price": 6000,
     "url": "https://www.thelivelyapartments.com/floorplans/2-bed-%7C-3-bath-%7C-penthouse",
     "first_seen": "2026-05-13T04:54:55.191077"
+  },
+  "vyv-north-2a-v2": {
+    "address": "18 Park View Ave, Jersey City, NJ 07302",
+    "price": 5408,
+    "url": "https://rent.brookfieldproperties.com/floorplans/?propertyId[]=1845044&availability=2026-02-04",
+    "first_seen": "2026-05-13T15:47:20.533344"
   }
 }
