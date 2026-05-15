@@ -912,10 +912,10 @@
     "first_seen": "2026-04-18T03:52:18.560722"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-14T04:54:05.604386"
+    "first_seen": "2026-05-15T15:21:57.033798"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -1017,7 +1017,7 @@
     "address": "273 16th Street, Jersey City, NJ 07310",
     "price": 4750,
     "url": "https://verisresidential.com/jersey-city-nj-apartments/soho-lofts/",
-    "first_seen": "2026-05-15T04:56:53.813274"
+    "first_seen": "2026-05-15T15:21:57.033802"
   },
   "99hudson-6300": {
     "address": "99 Hudson St #6300, Jersey City, NJ 07302",
@@ -1068,10 +1068,10 @@
     "first_seen": "2026-05-08T14:57:46.208463"
   },
   "99hudson-6611": {
-    "address": "99 Hudson St, Unit 6611, Jersey City, NJ 07302",
-    "price": 6000,
+    "address": "99 Hudson Street #6611, Jersey City, NJ 07302",
+    "price": 5944,
     "url": "https://streeteasy.com/building/99-hudson-street-jersey_city/6611",
-    "first_seen": "2026-04-13T14:55:25.370340"
+    "first_seen": "2026-05-15T15:21:57.033795"
   },
   "160-1st-st-1213": {
     "address": "160 1st Street, Unit 1213, Jersey City, NJ 07302",
@@ -1254,10 +1254,10 @@
     "first_seen": "2026-05-08T04:20:57.742399"
   },
   "351marin-2415": {
-    "address": "351 Marin Blvd, Unit 2415, Jersey City, NJ 07302",
-    "price": 5020,
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "price": 4565,
     "url": "https://www.351marinjc.com/availableunits",
-    "first_seen": "2026-05-15T04:56:53.813272"
+    "first_seen": "2026-05-15T15:21:57.033785"
   },
   "151bay-2br": {
     "address": "151 Bay Street, Jersey City, NJ 07302",
@@ -1267,9 +1267,9 @@
   },
   "65bay-2br-fl9-47": {
     "address": "65 Bay Street, Jersey City, NJ 07302",
-    "price": 5500,
+    "price": 6544,
     "url": "https://www.65bay.com/floorplans/2-br-2-ba-res-04-&-06:-fl-9---47",
-    "first_seen": "2026-05-09T14:20:04.809974"
+    "first_seen": "2026-05-15T15:21:57.033800"
   },
   "443-2ndst-406": {
     "address": "443 2nd St, Unit 406, Jersey City, NJ 07302",
