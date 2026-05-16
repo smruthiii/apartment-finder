@@ -912,10 +912,10 @@
     "first_seen": "2026-04-18T03:52:18.560722"
   },
   "quinn-2br-1027-v12": {
-    "address": "197 Van Vorst Street (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
     "price": 5241,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-15T15:21:57.033798"
+    "first_seen": "2026-05-16T04:34:18.670860"
   },
   "99hudson-2101": {
     "address": "99 Hudson St #2101, Jersey City, NJ 07302",
@@ -1254,10 +1254,10 @@
     "first_seen": "2026-05-08T04:20:57.742399"
   },
   "351marin-2415": {
-    "address": "351 Marin Blvd, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #2415, Jersey City, NJ 07302",
     "price": 4565,
     "url": "https://www.351marinjc.com/availableunits",
-    "first_seen": "2026-05-15T15:21:57.033785"
+    "first_seen": "2026-05-16T04:34:18.670857"
   },
   "151bay-2br": {
     "address": "151 Bay Street, Jersey City, NJ 07302",
@@ -1402,5 +1402,11 @@
     "price": 5500,
     "url": "https://www.zillow.com/homedetails/75-Park-Ln-S-APT-2107-Jersey-City-NJ-07310/325531095_zpid/",
     "first_seen": "2026-05-15T04:56:53.813270"
+  },
+  "28parkview-640": {
+    "address": "28 Park View Ave #640, Jersey City, NJ 07302",
+    "price": 4000,
+    "url": "https://www.zillow.com/homedetails/28-Park-View-Ave-640-Jersey-City-NJ-07302/462430890_zpid/",
+    "first_seen": "2026-05-16T04:34:18.670844"
   }
 }
