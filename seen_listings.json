@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
     "price": 5885,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-17T04:57:44.982260"
+    "first_seen": "2026-05-17T14:28:06.526563"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -996,10 +996,10 @@
     "first_seen": "2026-04-09T03:52:29.712822"
   },
   "351marin-0902-v16": {
-    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Unit 0902, Jersey City, NJ 07302",
     "price": 5810,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-17T04:57:44.982248"
+    "first_seen": "2026-05-17T14:28:06.526573"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
@@ -1201,9 +1201,9 @@
   },
   "99hudson-1805": {
     "address": "99 Hudson St, Unit 1805, Jersey City, NJ 07302",
-    "price": 5889,
+    "price": 5963,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1805/85y14f1/",
-    "first_seen": "2026-05-07T15:30:14.685600"
+    "first_seen": "2026-05-17T14:28:06.526579"
   },
   "99hudson-4209": {
     "address": "99 Hudson St, Unit 4209, Jersey City, NJ 07302",
@@ -1414,5 +1414,23 @@
     "price": 6001,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1901/3g597lf/",
     "first_seen": "2026-05-17T04:57:44.982264"
+  },
+  "lenox-b1-2br": {
+    "address": "201 Montgomery St, Jersey City, NJ 07302",
+    "price": 5533,
+    "url": "https://floorplans.lenoxnj.com/jersey-city/lenox/conventional/",
+    "first_seen": "2026-05-17T14:28:06.526575"
+  },
+  "quinn-b2a-2br": {
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
+    "price": 6145,
+    "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
+    "first_seen": "2026-05-17T14:28:06.526577"
+  },
+  "65bay-2br-v3": {
+    "address": "65 Bay Street, Jersey City, NJ 07302",
+    "price": 5070,
+    "url": "https://www.65bay.com/floorplans",
+    "first_seen": "2026-05-17T14:28:06.526581"
   }
 }
