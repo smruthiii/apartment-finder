@@ -930,10 +930,10 @@
     "first_seen": "2026-04-10T04:12:01.371271"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
-    "price": 5950,
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "price": 5885,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-08T14:57:46.208450"
+    "first_seen": "2026-05-17T04:57:44.982260"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -997,9 +997,9 @@
   },
   "351marin-0902-v16": {
     "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
-    "price": 5935,
+    "price": 5810,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-04-13T04:25:00.814934"
+    "first_seen": "2026-05-17T04:57:44.982248"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
@@ -1068,10 +1068,10 @@
     "first_seen": "2026-05-08T14:57:46.208463"
   },
   "99hudson-6611": {
-    "address": "99 Hudson Street #6611, Jersey City, NJ 07302",
+    "address": "99 Hudson St #6611, Jersey City, NJ 07302",
     "price": 5944,
     "url": "https://streeteasy.com/building/99-hudson-street-jersey_city/6611",
-    "first_seen": "2026-05-15T15:21:57.033795"
+    "first_seen": "2026-05-17T04:57:44.982262"
   },
   "160-1st-st-1213": {
     "address": "160 1st Street, Unit 1213, Jersey City, NJ 07302",
@@ -1408,5 +1408,11 @@
     "price": 4000,
     "url": "https://www.zillow.com/homedetails/28-Park-View-Ave-640-Jersey-City-NJ-07302/462430890_zpid/",
     "first_seen": "2026-05-16T04:34:18.670844"
+  },
+  "99hudson-1901": {
+    "address": "99 Hudson St #1901, Jersey City, NJ 07302",
+    "price": 6001,
+    "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-1901/3g597lf/",
+    "first_seen": "2026-05-17T04:57:44.982264"
   }
 }
