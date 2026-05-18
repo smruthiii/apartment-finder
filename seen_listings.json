@@ -925,15 +925,15 @@
   },
   "90columbus-2br-v11": {
     "address": "90 Columbus Dr, Jersey City, NJ 07302",
-    "price": 5705,
+    "price": 5540,
     "url": "https://ironstate.com/property/90-columbus/",
-    "first_seen": "2026-04-10T04:12:01.371271"
+    "first_seen": "2026-05-18T05:13:37.740532"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd, Unit 1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
     "price": 5885,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-17T14:28:06.526563"
+    "first_seen": "2026-05-18T05:13:37.740526"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -996,10 +996,10 @@
     "first_seen": "2026-04-09T03:52:29.712822"
   },
   "351marin-0902-v16": {
-    "address": "351 Marin Blvd, Unit 0902, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
     "price": 5810,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-17T14:28:06.526573"
+    "first_seen": "2026-05-18T05:13:37.740529"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
@@ -1164,10 +1164,10 @@
     "first_seen": "2026-04-17T04:16:38.765584"
   },
   "99hudson-6510": {
-    "address": "99 Hudson St, Unit 6510, Jersey City, NJ 07302",
-    "price": 5500,
+    "address": "99 Hudson St #6510, Jersey City, NJ 07302",
+    "price": 5944,
     "url": "https://www.apartments.com/99-hudson-st-jersey-city-nj-unit-6510/xnnm42n/",
-    "first_seen": "2026-05-14T15:25:04.960866"
+    "first_seen": "2026-05-18T05:13:37.740516"
   },
   "689marin-503-zephyr": {
     "address": "689 Marin Blvd, Unit 503, Jersey City, NJ 07310",
@@ -1225,9 +1225,9 @@
   },
   "162-8th-st-1524": {
     "address": "162 8th St #1524, Jersey City, NJ 07302",
-    "price": 5000,
+    "price": 4500,
     "url": "https://www.zillow.com/homedetails/162-8th-St-1524-Jersey-City-NJ-07302/462161281_zpid/",
-    "first_seen": "2026-05-13T04:54:55.191063"
+    "first_seen": "2026-05-18T05:13:37.740534"
   },
   "99hudson-1705": {
     "address": "99 Hudson St #1705, Jersey City, NJ 07302",
@@ -1432,5 +1432,11 @@
     "price": 5070,
     "url": "https://www.65bay.com/floorplans",
     "first_seen": "2026-05-17T14:28:06.526581"
+  },
+  "quinn-2br-b2a": {
+    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "price": 6145,
+    "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
+    "first_seen": "2026-05-18T05:13:37.740536"
   }
 }
