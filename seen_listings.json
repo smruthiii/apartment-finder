@@ -924,16 +924,16 @@
     "first_seen": "2026-04-04T03:38:49.316377"
   },
   "90columbus-2br-v11": {
-    "address": "90 Columbus Dr, Jersey City, NJ 07302",
+    "address": "90 Columbus Drive, Jersey City, NJ 07302",
     "price": 5540,
     "url": "https://ironstate.com/property/90-columbus/",
-    "first_seen": "2026-05-18T05:13:37.740532"
+    "first_seen": "2026-05-18T16:30:24.902161"
   },
   "351marin-1106": {
-    "address": "351 Marin Blvd #1106, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 5885,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-18T05:13:37.740526"
+    "first_seen": "2026-05-18T16:30:24.902149"
   },
   "351marin-2302": {
     "address": "351 Marin Blvd #2302, Jersey City, NJ 07302",
@@ -996,10 +996,10 @@
     "first_seen": "2026-04-09T03:52:29.712822"
   },
   "351marin-0902-v16": {
-    "address": "351 Marin Blvd #0902, Jersey City, NJ 07302",
+    "address": "351 Marin Blvd, Jersey City, NJ 07302",
     "price": 5810,
     "url": "https://www.351marinjc.com/floorplans/2br",
-    "first_seen": "2026-05-18T05:13:37.740529"
+    "first_seen": "2026-05-18T16:30:24.902159"
   },
   "lively-line02-143morgan": {
     "address": "143 Morgan St (The Lively), Jersey City, NJ 07302",
@@ -1434,9 +1434,15 @@
     "first_seen": "2026-05-17T14:28:06.526581"
   },
   "quinn-2br-b2a": {
-    "address": "197 Van Vorst St (Quinn), Jersey City, NJ 07302",
+    "address": "197 Van Vorst St, Jersey City, NJ 07302",
     "price": 6145,
     "url": "https://availability.quinnjc.com/jersey-city/quinn/conventional/",
-    "first_seen": "2026-05-18T05:13:37.740536"
+    "first_seen": "2026-05-18T16:30:24.902164"
+  },
+  "lenox-2br-b1": {
+    "address": "Lenox, Paulus Hook, Jersey City, NJ",
+    "price": 5533,
+    "url": "https://floorplans.lenoxnj.com/jersey-city/lenox/conventional/",
+    "first_seen": "2026-05-18T16:30:24.902163"
   }
 }
